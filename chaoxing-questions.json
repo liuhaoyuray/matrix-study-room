@@ -1,0 +1,2450 @@
+{
+  "status": "captured",
+  "course": "矩阵理论与应用",
+  "capturedAt": "2026-11-02",
+  "chapters": [
+    {
+      "title": "1.7 章节测验",
+      "chapter": "space",
+      "totalQuestions": 30,
+      "capturedQuestions": 30,
+      "transcribedQuestions": 30,
+      "questionTypes": "29判断+1填空",
+      "status": "待完成，未作答、保存或提交",
+      "capturePages": 12,
+      "privacyCropped": true
+    },
+    {
+      "title": "2.7 章节测验",
+      "chapter": "map",
+      "totalQuestions": 30,
+      "capturedQuestions": 30,
+      "transcribedQuestions": 30,
+      "questionTypes": "30判断",
+      "status": "待完成，未作答、保存或提交",
+      "capturePages": 11,
+      "privacyCropped": true
+    },
+    {
+      "title": "3.10 章节测验",
+      "chapter": "decomp",
+      "totalQuestions": 15,
+      "capturedQuestions": 15,
+      "transcribedQuestions": 15,
+      "questionTypes": "5单选+5多选+5判断",
+      "status": "待完成，未作答、保存或提交",
+      "note": "目录为3.10，测验卡片内标题为3.9，按目录记录。",
+      "capturePages": 8,
+      "privacyCropped": true
+    },
+    {
+      "title": "4.10 章节测验",
+      "chapter": "analysis",
+      "totalQuestions": 15,
+      "capturedQuestions": 15,
+      "transcribedQuestions": 15,
+      "questionTypes": "7判断+3单选+5多选",
+      "status": "待完成，未作答、保存或提交",
+      "capturePages": 9,
+      "privacyCropped": true
+    },
+    {
+      "title": "5.8 章节测验",
+      "chapter": "extra",
+      "totalQuestions": 15,
+      "capturedQuestions": 15,
+      "transcribedQuestions": 15,
+      "questionTypes": "4判断+1填空+5单选+5多选",
+      "status": "待完成，未作答、保存或提交",
+      "capturePages": 10,
+      "privacyCropped": true
+    }
+  ],
+  "questions": [
+    {
+      "id": "xxt-1-7-q01",
+      "type": "choice",
+      "prompt": "设 $A,B\\in\\mathbb C^{n\\times n}$，则 $AB^H$ 的迹可定义为 $\\mathbb C^{n\\times n}$ 的一个内积。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第1题",
+        "file": "learning-capture/chapter-1-01.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "取 $\\langle A,B\\rangle=\\operatorname{tr}(AB^H)=\\sum_{i,j}a_{ij}\\overline{b_{ij}}$。它对第一变量线性、满足共轭对称，且 $\\langle A,A\\rangle=\\sum|a_{ij}|^2\\ge0$，等号当且仅当A=0，所以可定义内积。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-1-7-q02",
+      "type": "choice",
+      "prompt": "任一复方阵都可以唯一地表示成 Hermite 矩阵和反 Hermite 矩阵之和。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第2题",
+        "file": "learning-capture/chapter-1-01.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "分解为 $A=H+K$，其中 $H=(A+A^H)/2$、$K=(A-A^H)/2$。直接验证Hᴴ=H、Kᴴ=−K。若有两组分解，相减后同一矩阵既Hermite又反Hermite，只能为零，因此唯一。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "m05"
+    },
+    {
+      "id": "xxt-1-7-q03",
+      "type": "choice",
+      "prompt": "设 $A$ 是复方阵，且 $\\operatorname{rank}(A)=\\operatorname{rank}(A^2)$，则 $R(A)+N(A)$ 是直和。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第3题",
+        "file": "learning-capture/chapter-1-01.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "由秩相等以及 $N(A)\\subseteq N(A^2)$，有 $N(A)=N(A^2)$。若y∈R(A)∩N(A)，写y=Ax，则A²x=0，故x∈N(A)，进而y=0。因此两空间交仅含零向量，是直和。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s05"
+    },
+    {
+      "id": "xxt-1-7-q04",
+      "type": "choice",
+      "prompt": "$R(A)=R(AB)$ 成立的充要条件是存在适当阶数的矩阵 $C$，使得 $ABC=A$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第4题",
+        "file": "learning-capture/chapter-1-02.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "若R(A)=R(AB)，A的每一列都可由AB的列线性表示，把对应系数排成C，得ABC=A。反过来，ABC=A说明R(A)⊆R(AB)，而R(AB)⊆R(A)总成立，故两列空间相等。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-1-7-q05",
+      "type": "choice",
+      "prompt": "已知 $A\\in\\mathbb C^{n\\times n}$，$\\operatorname{rank}(A)=r$，则子空间 $S_A=\\{B\\in\\mathbb C^{n\\times n}\\mid AB=0\\}$ 的维数是 $n-r$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第5题",
+        "file": "learning-capture/chapter-1-03.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "AB=0等价于B的每一列都属于N(A)。N(A)维数为n−r，而B有n列，每列的自由选择独立，所以S_A维数为n(n−r)，一般不是n−r。例如n=2、A=0时，S_A是全部二阶矩阵，维数4而非2。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-1-7-q06",
+      "type": "choice",
+      "prompt": "已知 $A\\in\\mathbb C^{n\\times n}$，$\\operatorname{rank}(A)=r$，则子空间 $S_A=\\{B\\in\\mathbb C^{n\\times n}\\mid AB=0\\}$ 的维数是 $n(n-r)$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第6题",
+        "file": "learning-capture/chapter-1-03.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "将B写成列向量组，AB=0逐列等价于Ab_j=0。每列在维数n−r的零空间内独立选择，共n列，因此矩阵空间的自由参数总数为n(n−r)。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-1-7-q07",
+      "type": "choice",
+      "prompt": "设 $V=\\{X\\in\\mathbb R^{n\\times n}\\mid Xa=0,\\ a=[1,1,\\ldots,1]^T\\}$，则 $V$ 是 $\\mathbb R^{n\\times n}$ 的一个子空间，且它的维数是 $n^2-n$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第7题",
+        "file": "learning-capture/chapter-1-03.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "映射T:X↦Xa是线性的，故其核V为子空间。a非零且每行与a点乘都可独立产生任意实数，所以该映射到Rⁿ满射，秩为n。定义域维数n²，由秩零化度定理得dim V=n²−n。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s02"
+    },
+    {
+      "id": "xxt-1-7-q08",
+      "type": "choice",
+      "prompt": "定义 $W=\\{A\\in\\mathbb R^{2\\times2}\\mid\\operatorname{tr}(A)=0\\}$，则 $W$ 是 $\\mathbb R^{2\\times2}$ 的子空间。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第8题",
+        "file": "learning-capture/chapter-1-04.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "迹是从二阶实矩阵空间到R的线性映射，W是它的核，所以为子空间。也可直接验证零矩阵在内，且tr(αA+βB)=αtr A+βtr B=0。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s02"
+    },
+    {
+      "id": "xxt-1-7-q09",
+      "type": "choice",
+      "prompt": "设 $A,B$ 均为 Hermite 半正定矩阵，若 $\\operatorname{tr}(AB)=0$，则 $AB=0$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第9题",
+        "file": "learning-capture/chapter-1-04.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "半正定矩阵有Hermite半正定平方根，且 $\\operatorname{tr}(AB)=\\|A^{1/2}B^{1/2}\\|_F^2$。迹为零迫使A¹ᐟ²B¹ᐟ²=0，故 $AB=A^{1/2}(A^{1/2}B^{1/2})B^{1/2}=0$。半正定前提不可省。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-1-7-q10",
+      "type": "choice",
+      "prompt": "复数域 $\\mathbb C$ 作为实数域 $\\mathbb R$ 上的一个二维线性空间，则一定存在一个内积，使得向量 $1$ 和 $1+i$ 构成 $\\mathbb C$ 的一组标准正交基。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第10题",
+        "file": "learning-capture/chapter-1-05.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "1和1+i在实数域上线性无关，可先指定它们为一组标准正交基，再按坐标定义内积。具体地，对z=a+bi、w=c+di，定义⟨z,w⟩=(a−b)(c−d)+bd。它正定且使1与1+i长度都为1、内积为0。题目问存在某个内积，不是沿用通常内积。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-1-7-q11",
+      "type": "choice",
+      "prompt": "设 $A=\\begin{pmatrix}1&\\lambda&-1\\\\\\lambda&1&-2\\\\-1&-2&5\\end{pmatrix}$。若 $A$ 是实对称正定矩阵，则 $\\lambda\\in(0,0.8)$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第11题",
+        "file": "learning-capture/chapter-1-05.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "实对称矩阵正定当且仅当顺序主子式全正。这里Δ₁=1，Δ₂=1−λ²，Δ₃=λ(4−5λ)。最后一项正给出0<λ<4/5，在此区间Δ₂也正，因此精确范围就是(0,0.8)。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-1-7-q12",
+      "type": "choice",
+      "prompt": "$n$ 阶实数矩阵 $A$ 构成的实系数矩阵多项式，对于矩阵的加法及实数与矩阵的乘法，构成实数域上的线性空间。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第12题",
+        "file": "learning-capture/chapter-1-05.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "固定矩阵A的实系数多项式集合为R[A]={c₀I+c₁A+⋯+c_kAᵏ}。包含零矩阵，两个这样的多项式相加、乘实常数后仍是同类多项式，所以对通常运算构成实线性空间。表示多项式可能不唯一，不影响集合为线性空间。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s01"
+    },
+    {
+      "id": "xxt-1-7-q13",
+      "type": "choice",
+      "prompt": "对于 $\\begin{pmatrix}0&a\\\\-a&b\\end{pmatrix}$ 的全体二阶方阵，对于矩阵的加法及实数与矩阵的乘法，构成实数域上的线性空间。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第13题",
+        "file": "learning-capture/chapter-1-06.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "所有给定矩阵都可写成 $a\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}+b\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}$，其中a、b为实数。因此它是两个固定矩阵的张成空间，必为实线性空间。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s01"
+    },
+    {
+      "id": "xxt-1-7-q14",
+      "type": "choice",
+      "prompt": "$x^2+2x,\\ x^2-2x,\\ x+4$ 是多项式空间 $P_2(x)$ 的一组基。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第14题",
+        "file": "learning-capture/chapter-1-06.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "按本题通常的P₂(x)表示次数不超过2的多项式空间，维数为3。在基(1,x,x²)下，三多项式坐标为(0,2,1)ᵀ、(0,−2,1)ᵀ、(4,1,0)ᵀ，组成矩阵的行列式为16≠0，故线性无关，构成一组基。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s03"
+    },
+    {
+      "id": "xxt-1-7-q15",
+      "type": "choice",
+      "prompt": "集合 $V=\\{X\\mid AX=XA,\\ X\\in\\mathbb R^{3\\times3}\\}$，其中 $A=\\begin{pmatrix}1&1&0\\\\0&1&1\\\\0&0&1\\end{pmatrix}$，则 $V$ 是 $\\mathbb R$ 上的线性子空间，且 $\\dim(V)=4$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第15题",
+        "file": "learning-capture/chapter-1-06.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "交换条件是关于X的齐次线性方程，所以确为子空间。但逐项解AX=XA得 $X=\\begin{pmatrix}a&b&c\\\\0&a&b\\\\0&0&a\\end{pmatrix}$，只有a、b、c三个自由参数，维数为3而非4，因此整个命题错误。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "b01"
+    },
+    {
+      "id": "xxt-1-7-q16",
+      "type": "choice",
+      "prompt": "集合 $V=\\{x\\mid x=(x_1,x_2,\\ldots,x_n),\\ x_i\\in\\mathbb C\\}$，则在通常的向量加法和数乘下，$V$ 构成实数域上的线性空间，且 $\\dim(V)=n$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第16题",
+        "file": "learning-capture/chapter-1-07.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "把Cⁿ看作实线性空间时，实部和虚部各提供n个独立实参数，维数为2n。一组实基为e₁,…,e_n,ie₁,…,ie_n。它的确构成实线性空间，但维数不是n。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s01"
+    },
+    {
+      "id": "xxt-1-7-q17",
+      "type": "choice",
+      "prompt": "向量空间 $\\mathbb R^2$ 的子集 $V=\\{\\alpha\\mid\\alpha=(b,\\tfrac12b(b+1)),\\ b\\in\\mathbb R\\}$ 是 $\\mathbb R^2$ 的子空间。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第17题",
+        "file": "learning-capture/chapter-1-07.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "取b=1得向量(1,1)。若对子空间数乘封闭，二倍(2,2)也应属于集合；但第一坐标等于2迫使参数b=2，此时第二坐标应为3而非2。因此不对数乘封闭，不是子空间。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s02"
+    },
+    {
+      "id": "xxt-1-7-q18",
+      "type": "choice",
+      "prompt": "数域一定是复数域的子集。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第18题",
+        "file": "learning-capture/chapter-1-08.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "按本课程线性代数的“数域”定义，它是复数域C中对通常加、减、乘、除运算封闭且含0、1的数集，因此必为C的子集。这里使用课程中的数域概念，不把命题扩展成“任意抽象域都可嵌入C”。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s01"
+    },
+    {
+      "id": "xxt-1-7-q19",
+      "type": "choice",
+      "prompt": "给定线性空间的基不一定唯一，但各组基中的向量个数一定是相等的。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第19题",
+        "file": "learning-capture/chapter-1-08.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "有限维线性空间中，每组基都由极大线性无关且张成全空间的向量组成，各组基的向量数相同，称为空间维数。基可以换，但维数不随基的选择改变。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s03"
+    },
+    {
+      "id": "xxt-1-7-q20",
+      "type": "choice",
+      "prompt": "两个子空间的并集是线性空间。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第20题",
+        "file": "learning-capture/chapter-1-08.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "在R²中取两条坐标轴，分别都是子空间；它们的并集包含(1,0)和(0,1)，却不包含两者之和(1,1)，不对加法封闭。只有存在包含关系等特殊情形，并集才仍为子空间。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s02"
+    },
+    {
+      "id": "xxt-1-7-q21",
+      "type": "choice",
+      "prompt": "某矩阵的零空间与列空间一定不等。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第21题",
+        "file": "learning-capture/chapter-1-09.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "反例 $A=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}$。它的列空间为span{(1,0)ᵀ}；解Ax=0得到x₂=0，零空间也为同一条直线。因此两者可能相等，“一定不等”错误。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-1-7-q22",
+      "type": "choice",
+      "prompt": "设 $x_1,x_2,\\ldots,x_n$ 是欧氏空间 $V$ 中的一组向量，$(x,y)$ 表示 $x$ 与 $y$ 的内积，令 $A=((x_i,x_j))_{i,j=1}^n$。则 $\\det(A)\\ne0$ 的充要条件为向量 $x_1,x_2,\\ldots,x_n$ 线性无关。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第22题",
+        "file": "learning-capture/chapter-1-09.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "Gram矩阵满足 $c^TAc=\\|\\sum_i c_ix_i\\|^2$。向量组线性无关时，对非零c该值严格正，Gram矩阵正定可逆；若线性相关，则存在非零c使组合为零，进而Ac=0，行列式为零。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-1-7-q23",
+      "type": "choice",
+      "prompt": "在线性空间 $V$ 中，同一向量在不同基下的坐标一定不同。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第23题",
+        "file": "learning-capture/chapter-1-09.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "零向量在每一组基下的坐标均为零，因此“同一向量在不同基下坐标一定不同”被直接反驳。即使非零向量，两组基也可能保留同一个首向量，使该向量坐标同为(1,0,…,0)ᵀ。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s03"
+    },
+    {
+      "id": "xxt-1-7-q24",
+      "type": "choice",
+      "prompt": "设 $A\\in\\mathbb C^{n\\times n}$，则 $A^{n-1},\\ldots,A,I$ 一定线性无关。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第24题",
+        "file": "learning-capture/chapter-1-10.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "取n=2、A=I₂，则题中向量组为A、I₂，两个矩阵相同，线性相关。一般是否无关由最小多项式次数控制；不能只根据原矩阵阶数就断言这些幂独立。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "d03"
+    },
+    {
+      "id": "xxt-1-7-q25",
+      "type": "choice",
+      "prompt": "设 $A\\in\\mathbb C^{n\\times n}$，则 $A^n$ 一定可以由 $A^{n-1},\\ldots,A,I$ 线性表示，其中 $n\\ge2$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第25题",
+        "file": "learning-capture/chapter-1-11.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "由Cayley–Hamilton定理，特征多项式p(λ)=λⁿ+c_{n−1}λⁿ⁻¹+⋯+c₀满足p(A)=0。移项得到Aⁿ=−c_{n−1}Aⁿ⁻¹−⋯−c₀I，因此一定能由前面的低次幂线性表示。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "d03"
+    },
+    {
+      "id": "xxt-1-7-q26",
+      "type": "choice",
+      "prompt": "在三维内积空间 $V$ 中，存在着一个二维子空间 $W_1$ 和两个一维子空间 $W_2,W_3$，使得这三个子空间相互正交。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第26题",
+        "file": "learning-capture/chapter-1-11.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "内积空间中两两正交的子空间构成直和，维数应相加。本题三者维数总和2+1+1=4，超过所在三维空间的维数，因此不可能同时满足两两正交。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s05"
+    },
+    {
+      "id": "xxt-1-7-q27",
+      "type": "choice",
+      "prompt": "在线性空间 $V$ 中，$\\forall x,y\\in V$，有 $|(x,y)|\\le\\|x\\|\\|y\\|$。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第27题",
+        "file": "learning-capture/chapter-1-11.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "explanation": "原截图确实只写“在线性空间V中”，未给出内积及由该内积诱导的范数。按补全为内积空间且范数由该内积诱导的常见意图，这是Cauchy–Schwarz不等式，命题正确；但仅按当前题干，内积和范数尚未定义，前提不足。故保留为需澄清，不指定自动判分答案，也不猜测官方答案。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-1-7-q28",
+      "type": "choice",
+      "prompt": "内积空间可定义不同的内积，由此导致向量的夹角也可能不同。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第28题",
+        "file": "learning-capture/chapter-1-12.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "内积决定角度。R²的标准内积下e₁、e₂夹角为90°；改用正定度量矩阵G=[[2,1],[1,2]]所定义的内积，两者内积为1、长度均为√2，夹角余弦为1/2，角度变为60°。所以夹角确实可能改变。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-1-7-q29",
+      "type": "choice",
+      "prompt": "矩阵空间 $\\mathbb R^{2\\times2}$ 的子集 $V=\\{X\\in\\mathbb R^{2\\times2}\\mid AXB=0\\}$，其中 $A,B\\in\\mathbb R^{2\\times2}$，是 $\\mathbb R^{2\\times2}$ 的子空间。（判断）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第29题",
+        "file": "learning-capture/chapter-1-12.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "固定A、B后，T:X↦AXB是实线性映射，集合V就是它的核。核总是线性子空间。直接验证也有A(αX+βY)B=αAXB+βAYB=0。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "s02"
+    },
+    {
+      "id": "xxt-1-7-q30",
+      "type": "short",
+      "prompt": "设齐次线性方程组 $Ax=0$，其中 $A\\in\\mathbb R^{40\\times42}$。若该方程组的基础解系由两个线性无关的向量构成，则非齐次线性方程组 $Ax=b$ 一定有解。（原页面为填空题，题干末尾印有“√”）",
+      "chapter": "space",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·1.7 章节测验·第30题",
+        "file": "learning-capture/chapter-1-12.png",
+        "page": 1
+      },
+      "explanation": "基础解系有两个独立向量，说明dim N(A)=2。A有42列，由秩零化度定理得rank A=42−2=40，等于行数，所以列空间为全部R⁴⁰，对任意b∈R⁴⁰均有解。原界面题型为填空，末尾已有印刷的√；此处只给独立数学结论，不推断平台具体填写格式。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "lessonId": "b01"
+    },
+    {
+      "id": "xxt-2-7-q01",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "在多项式空间 $P_n(x)$ 中，定义 $T:P_n\\to P_n$ 为微分变换，则 $T$ 在任一基下的矩阵都是不可对角化的。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第1题",
+        "file": "learning-capture/chapter-2-01.png",
+        "page": 1
+      },
+      "explanation": "若按通常课程约定 $n\\ge1$ 且 $P_n$ 含次数不超过 $n$ 的多项式，微分是非零幂零变换，故不可对角化；若允许 $n=0$，它是零变换，反而可对角化。原题未明写该边界，暂不作自动判分。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "reviewStatus": "待确认题目边界或数域",
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-2-7-q02",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "定义映射 $T:X\\mapsto\\operatorname{tr}(X)$，其中 $X$ 是 $n$ 阶复方阵，则 $T$ 是线性空间 $\\mathbb R^n$ 到 $\\mathbb R$ 的满足 $T(XY)=T(YX)$ 和 $T(I)=n$ 的唯一线性映射。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第2题",
+        "file": "learning-capture/chapter-2-01.png",
+        "page": 1
+      },
+      "explanation": "原文把定义域写成 $\\mathbb R^n$，却将输入规定为 $n$ 阶复方阵，尺寸与数域不符，命题按字面为错。标准的迹映射应为 $\\mathbb C^{n\\times n}\\to\\mathbb C$（或实矩阵空间到实数域）；不能擅自把原题改正后判真。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 1,
+      "lessonId": "m01"
+    },
+    {
+      "id": "xxt-2-7-q03",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "若 $x$ 是 $A$ 的特征向量，则 $x$ 必是矩阵多项式 $f(A)$ 的特征值向量。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第3题",
+        "file": "learning-capture/chapter-2-02.png",
+        "page": 1
+      },
+      "explanation": "原文末尾写“特征值向量”，按其意图“特征向量”理解：若 $Ax=\\lambda x$ 且 $x\\ne0$，则 $A^kx=\\lambda^kx$，从而 $f(A)x=f(\\lambda)x$。即使 $f(\\lambda)=0$，非零的 $x$ 仍为对应特征向量。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m04"
+    },
+    {
+      "id": "xxt-2-7-q04",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $A=\\begin{pmatrix}1&0&0\\\\1&0&1\\\\0&1&0\\end{pmatrix}$，则对于 $n\\ge3$ 有 $A^n=A^{n-2}+A^2-I$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第4题",
+        "file": "learning-capture/chapter-2-02.png",
+        "page": 1
+      },
+      "explanation": "特征多项式为 $\\lambda^3-\\lambda^2-\\lambda+1$。Cayley–Hamilton给出 $A(A^2-I)=A^2-I$，于是对任意整数 $k\\ge1$ 有 $A^k(A^2-I)=A^2-I$。取 $k=n-2$ 得所述等式。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "d03"
+    },
+    {
+      "id": "xxt-2-7-q05",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "方阵 $A$ 的任一特征值的代数重数不大于它的几何重数。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第5题",
+        "file": "learning-capture/chapter-2-02.png",
+        "page": 1
+      },
+      "explanation": "正确方向是几何重数不大于代数重数。例如 $\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$ 的特征值1代数重数2、几何重数1，直接否定题干。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 1,
+      "lessonId": "m04"
+    },
+    {
+      "id": "xxt-2-7-q06",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $A$ 是秩为 $r$ 的 $n$ 阶幂等矩阵，则 $A+2I$ 的行列式为 $3^r2^{n-r}$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第6题",
+        "file": "learning-capture/chapter-2-03.png",
+        "page": 1
+      },
+      "explanation": "幂等矩阵的特征值只有0、1，且可对角化，秩等于特征值1的重数 $r$。所以 $A+2I$ 的特征值为 $r$ 个3和 $n-r$ 个2，行列式为其乘积。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "d05"
+    },
+    {
+      "id": "xxt-2-7-q07",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $T$ 是数域 $F$ 上 $n$ 维线性空间 $V$ 到 $m$ 维线性空间 $W$ 的线性映射，若 $T$ 为单射，则 $m\\ge n$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第7题",
+        "file": "learning-capture/chapter-2-03.png",
+        "page": 1
+      },
+      "explanation": "单射等价于核维数0，亏加秩给出像维数为 $n$；像是 $W$ 的子空间，所以 $n\\le m$。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-2-7-q08",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "属于同一线性变换的各个矩阵的特征值完全相同。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第8题",
+        "file": "learning-capture/chapter-2-03.png",
+        "page": 1
+      },
+      "explanation": "同一线性变换在不同基下的矩阵相似，相似矩阵具有相同特征多项式，因此特征值及其代数重数相同。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m03"
+    },
+    {
+      "id": "xxt-2-7-q09",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $T$ 是 $\\mathbb R^3$ 的线性空间，定义为 $T([a_1,a_2,a_3])=[0,a_1,a_2]$，则 $T^2$ 的像空间维数为1，$T^2$ 的核空间维数为2。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第9题",
+        "file": "learning-capture/chapter-2-04.png",
+        "page": 1
+      },
+      "explanation": "按给出的映射计算 $T^2([a_1,a_2,a_3])=[0,0,a_1]$。输出只有第三坐标方向，像维数1；核由 $a_1=0$ 定义，自由变量 $a_2,a_3$，维数2。原题“线性空间”应为“线性变换”，这里保留原文。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-2-7-q10",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "已知 $A=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}$，则不存在常数 $c$ 使得 $A^4-8A^3-2A^2+2A=cA$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第10题",
+        "file": "learning-capture/chapter-2-04.png",
+        "page": 1
+      },
+      "explanation": "$A^2=2A$，所以 $A^3=4A$、$A^4=8A$。左边等于 $(8-32-4+2)A=-26A$，取 $c=-26$ 即成立。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 1,
+      "lessonId": "d03"
+    },
+    {
+      "id": "xxt-2-7-q11",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $A$ 是秩为3的5阶幂等矩阵，则 $A+2I$ 的行列式为108。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第11题",
+        "file": "learning-capture/chapter-2-04.png",
+        "page": 1
+      },
+      "explanation": "特征值1重数3、0重数2，故 $\\det(A+2I)=3^3\\cdot2^2=108$。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "d05"
+    },
+    {
+      "id": "xxt-2-7-q12",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $A$ 是 $n$ 阶复方阵，满足 $A^k=0$，其中 $k$ 为自然数，则 $A+I$ 的行列式为1。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第12题",
+        "file": "learning-capture/chapter-2-05.png",
+        "page": 1
+      },
+      "explanation": "由幂零性，任一特征值 $\\lambda$ 满足 $\\lambda^k=0$，故只能为0。$I+A$ 的全部特征值均为1，行列式为1。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m04"
+    },
+    {
+      "id": "xxt-2-7-q13",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $\\alpha_1,\\alpha_2$ 是酉空间 $V$ 的标准正交基，$T$ 是 $V$ 上的酉变换，满足 $T\\alpha_1=a\\alpha_1+i\\alpha_2$，$T\\alpha_2=\\alpha_1+b\\alpha_2$，则 $a=0$、$b=0$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第13题",
+        "file": "learning-capture/chapter-2-05.png",
+        "page": 1
+      },
+      "explanation": "酉变换保持标准正交基各向量长度为1，故 $\\|T\\alpha_1\\|^2=|a|^2+1=1$、$\\|T\\alpha_2\\|^2=1+|b|^2=1$，分别推出 $a=b=0$。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m05"
+    },
+    {
+      "id": "xxt-2-7-q14",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $T$ 是线性空间 $V^n\\ (n>1)$ 中的线性变换，若数 $\\lambda$ 不是 $T$ 的特征值，则 $V^n$ 的子空间 $V_\\lambda=\\{x\\mid Tx=\\lambda x,\\ x\\in V^n\\}$ 的维数是0。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第14题",
+        "file": "learning-capture/chapter-2-05.png",
+        "page": 1
+      },
+      "explanation": "若此齐次方程存在非零解，就会使 $\\lambda$ 成为特征值。既然不是特征值，解集只有零向量，维数为0。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m04"
+    },
+    {
+      "id": "xxt-2-7-q15",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $n$ 阶矩阵 $A$ 满足 $A^2=A$，$R(A)$ 和 $N(A)$ 分别表示 $A$ 的值域和零空间，则 $\\dim(R(A)\\cap N(A))=0$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第15题",
+        "file": "learning-capture/chapter-2-06.png",
+        "page": 1
+      },
+      "explanation": "若 $z=Ay$ 又满足 $Az=0$，则 $z=Ay=A^2y=Az=0$，所以交只有零向量。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "s05"
+    },
+    {
+      "id": "xxt-2-7-q16",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设实数域上的多项式空间 $P_3[t]$ 中的多项式 $f(t)=a_0+a_1t+a_2t^2+a_3t^3$ 在线性变换 $T$ 下的像为 $Tf(t)=(a_0-a_1)+(a_1-a_2)t+(a_2-a_3)t^2+(a_3-a_0)t^3$，则 $\\dim(R(T))=3$、$\\dim(N(T))=1$。章节自带题中有此题的绕扰版本。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第16题",
+        "file": "learning-capture/chapter-2-06.png",
+        "page": 1
+      },
+      "explanation": "核的条件是 $a_0=a_1=a_2=a_3$，所以核由 $1+t+t^2+t^3$ 张成，维数1。定义域维数4，亏加秩给出像维数3。末尾附注为原题文字，不参与数学结论。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-2-7-q17",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $T_1,T_2$ 是线性空间 $V$ 的线性变换，且满足 $T_1^2=T_1$、$T_2^2=T_2$，则 $R(T_1)=R(T_2)$ 的充分必要条件是 $T_1T_2=T_2$ 且 $T_2T_1=T_1$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第17题",
+        "file": "learning-capture/chapter-2-06.png",
+        "page": 1
+      },
+      "explanation": "幂等变换在其像上为恒等。若两像相同，就得到两个复合恒等式；反之 $T_1T_2=T_2$ 推出 $R(T_2)\\subseteq R(T_1)$，另一式给反向包含。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "s05"
+    },
+    {
+      "id": "xxt-2-7-q18",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "在 $\\mathbb R^n$ 中，$(\\alpha,\\beta)=\\|\\alpha\\|_2\\,\\|\\beta\\|_2$ 成立的充分必要条件是 $\\alpha,\\beta$ 线性相关且 $\\alpha^T\\beta\\ge0$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第18题",
+        "file": "learning-capture/chapter-2-07.png",
+        "page": 1
+      },
+      "explanation": "柯西不等式等号成立当且仅当两向量线性相关；去掉绝对值后还须内积非负。若其中一个为零，两边均为零，条件仍成立。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "s04"
+    },
+    {
+      "id": "xxt-2-7-q19",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $\\alpha_1,\\alpha_2$ 是线性空间 $V^2$ 的一组基，$T_1,T_2$ 是 $V^2$ 的线性变换，其中 $T_1(\\alpha_1)=\\alpha_1^T$、$T_1(\\alpha_2)=\\alpha_2^T$，且 $T_2(\\alpha_1+\\alpha_2)=\\alpha_1^T+\\alpha_2^T$、$T_2(\\alpha_1-\\alpha_2)=\\alpha_1^T-\\alpha_2^T$，则 $T_1=T_2$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第19题",
+        "file": "learning-capture/chapter-2-07.png",
+        "page": 1
+      },
+      "explanation": "将 $T_2$ 的两式相加、相减再除以2，得 $T_2(\\alpha_1)=\\alpha_1^T$、$T_2(\\alpha_2)=\\alpha_2^T$，与 $T_1$ 在一组基上的像相同，故为同一变换。上标 $T$ 保留原图写法。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m03"
+    },
+    {
+      "id": "xxt-2-7-q20",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设任意矩阵 $A\\in P^{n\\times n}$，给定矩阵 $C\\in P^{n\\times n}$，定义变换 $T(A)=CA-AC$，则 $T$ 是 $P^{n\\times n}$ 中的线性变换。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第20题",
+        "file": "learning-capture/chapter-2-07.png",
+        "page": 1
+      },
+      "explanation": "固定 $C$，有 $T(aA+bB)=C(aA+bB)-(aA+bB)C=aT(A)+bT(B)$，并且输出仍为同阶矩阵。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m01"
+    },
+    {
+      "id": "xxt-2-7-q21",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设 $T$ 是数域 $P$ 上的 $n$ 维线性空间 $V^n$ 的一个线性变换。如果 $T$ 在任意一组基下的矩阵都相同，则 $T$ 是数乘变换。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第21题",
+        "file": "learning-capture/chapter-2-08.png",
+        "page": 1
+      },
+      "explanation": "换基矩阵 $S$ 可任取可逆矩阵，故 $S^{-1}AS=A$，即 $A$ 与所有可逆矩阵交换。在数域上这迫使 $A=cI$，于是 $T(x)=cx$。例如与可逆对角矩阵交换先迫使非对角项为零，再与置换矩阵交换迫使对角项相等。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "m03"
+    },
+    {
+      "id": "xxt-2-7-q22",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "矩阵 $A$ 与 $B$ 相似，$C$ 与 $D$ 相似，则矩阵 $\\begin{pmatrix}A&0\\\\0&C\\end{pmatrix}$ 与 $\\begin{pmatrix}B&0\\\\0&D\\end{pmatrix}$ 相似。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第22题",
+        "file": "learning-capture/chapter-2-08.png",
+        "page": 1
+      },
+      "explanation": "若 $B=S^{-1}AS$、$D=R^{-1}CR$，取可逆块对角阵 $P=\\operatorname{diag}(S,R)$，直接得 $P^{-1}\\operatorname{diag}(A,C)P=\\operatorname{diag}(B,D)$。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-2-7-q23",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "对于任意 $n$ 阶矩阵 $A$，$\\operatorname{rank}(A^n)=\\operatorname{rank}(A^{n+1})$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第23题",
+        "file": "learning-capture/chapter-2-08.png",
+        "page": 1
+      },
+      "explanation": "子空间链 $R(I)\\supseteq R(A)\\supseteq R(A^2)\\supseteq\\cdots$ 的维数从 $n$ 起最多严格下降 $n$ 次；一旦相邻像相等，继续乘 $A$ 便始终相等。因此最迟在 $A^n$ 时稳定。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "b02"
+    },
+    {
+      "id": "xxt-2-7-q24",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设线性空间 $V^n$ 中的线性变换 $T_1,T_2$ 满足 $T_1T_2=T_1+T_2$，则 $T_1$ 有一个特征值为1。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第24题",
+        "file": "learning-capture/chapter-2-09.png",
+        "page": 1
+      },
+      "explanation": "由条件得 $(T_1-I)(T_2-I)=I$。有限维下两因子均可逆，特别地 $T_1-I$ 可逆，所以1恰恰不是 $T_1$ 的特征值。反例也可取 $T_1=T_2=2I$。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 1,
+      "lessonId": "m04"
+    },
+    {
+      "id": "xxt-2-7-q25",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "已知 $n$ 阶矩阵 $A$ 满足 $A^2=kA\\ (k\\ne0)$，则 $A$ 相似于对角阵。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第25题",
+        "file": "learning-capture/chapter-2-09.png",
+        "page": 1
+      },
+      "explanation": "最小多项式整除 $\\lambda(\\lambda-k)$，因为 $k\\ne0$，两个根互异，没有重根，故可对角化。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-2-7-q26",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "设矩阵 $A,B,C$ 分别为 $m\\times n$、$n\\times k$、$k\\times p$ 矩阵，则 $\\operatorname{rank}(ABC)\\ge\\operatorname{rank}(AB)+\\operatorname{rank}(BC)-\\operatorname{rank}(B)$ 恒成立。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第26题",
+        "file": "learning-capture/chapter-2-09.png",
+        "page": 1
+      },
+      "explanation": "这是Frobenius秩不等式。把 $A$ 限制在 $R(B)$ 上，核的维数为 $\\operatorname{rank}B-\\operatorname{rank}(AB)$；再限制到子空间 $R(BC)\\subseteq R(B)$，核维数不会更大。因此 $\\operatorname{rank}(ABC)\\ge\\operatorname{rank}(BC)-[\\operatorname{rank}B-\\operatorname{rank}(AB)]$。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 0,
+      "lessonId": "b02"
+    },
+    {
+      "id": "xxt-2-7-q27",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "若 $A$ 为实矩阵，并且 $A^TA=AA^T$，则 $A$ 必是对称矩阵。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第27题",
+        "file": "learning-capture/chapter-2-09.png",
+        "page": 1
+      },
+      "explanation": "实正规矩阵不一定对称。取 $A=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$，有 $A^TA=AA^T=I$，但 $A^T=-A\\ne A$。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 1,
+      "lessonId": "m05"
+    },
+    {
+      "id": "xxt-2-7-q28",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "对于任意矩阵 $A$，如下等式成立：$\\operatorname{rank}(A)=\\operatorname{rank}(A^TA)=\\operatorname{rank}(AA^T)$。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第28题",
+        "file": "learning-capture/chapter-2-10.png",
+        "page": 1
+      },
+      "explanation": "题干未写数域：对实矩阵命题为真；对复矩阵必须将转置改为共轭转置。复反例 $A=(1,i)$ 满足秩为1却 $AA^T=0$。为避免给未注明数域的原题强定答案，暂不自动判分。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "reviewStatus": "待确认题目边界或数域",
+      "lessonId": "m05"
+    },
+    {
+      "id": "xxt-2-7-q29",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "若 $AB=BA$，则 $A$ 与 $B$ 有公共的特征向量。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第29题",
+        "file": "learning-capture/chapter-2-10.png",
+        "page": 1
+      },
+      "explanation": "在复数域上为真：$A$ 的某个非零特征子空间在 $B$ 下不变，在其中再取 $B$ 的特征向量即可。若要求实特征向量则不一定成立，例如实平面90度旋转矩阵与单位阵交换，但没有实特征向量。原题未注明数域，暂不自动判分。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "reviewStatus": "待确认题目边界或数域",
+      "lessonId": "m04"
+    },
+    {
+      "id": "xxt-2-7-q30",
+      "chapter": "map",
+      "type": "choice",
+      "prompt": "若方阵 $A\\ne0$，但是 $A^k=0$（$k$ 为某一正整数），则 $A$ 可相似于一个对角矩阵。",
+      "options": [
+        "对",
+        "错"
+      ],
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·2.7章节测验·第30题",
+        "file": "learning-capture/chapter-2-10.png",
+        "page": 1
+      },
+      "explanation": "幂零矩阵的所有特征值均为0。如果它可对角化，对角阵只能是零阵，从而 $A$ 本身也为零，与 $A\\ne0$ 矛盾。",
+      "answerNote": "独立推导的参考解析，非学习通官方答案。",
+      "answer": 1,
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-3-10-q01",
+      "type": "choice",
+      "prompt": "矩阵 $A$ 是单纯矩阵的充要条件是（ ）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第1题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-01.png",
+        "page": 1
+      },
+      "options": [
+        "$A$ 的特征矩阵的初等因子都是一次的",
+        "$A$ 的 Jordan 标准形中只有一个 Jordan 块",
+        "$A$ 的最小多项式是一次的",
+        "$A$ 的行列式因子都是一次的"
+      ],
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-3-10-q02",
+      "type": "choice",
+      "prompt": "设 $A,B$ 都是 $n$ 阶对称正定阵，则以下说法正确的是（ ）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第2题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-02.png",
+        "page": 1
+      },
+      "options": [
+        "$A+B$ 和 $AB$ 都是对称正定阵",
+        "$A+B$ 和 $AB$ 都不是对称正定阵",
+        "$A+B$ 一定是对称正定阵，$AB$ 不一定是对称正定阵",
+        "$A+B$ 不一定是对称正定阵，$AB$ 一定是对称正定阵"
+      ],
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-3-10-q03",
+      "type": "choice",
+      "prompt": "设 $n$ 阶矩阵 $A$ 满足 $A^n=I$，则以下说法正确的是（ ）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第3题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-02.png",
+        "page": 1
+      },
+      "options": [
+        "$A$ 的最小多项式与特征多项式相同",
+        "$A$ 不可以对角化",
+        "$A$ 的 Jordan 标准形有 $n$ 个 Jordan 块",
+        "$A$ 可能可以对角化，也可能不可以对角化"
+      ],
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-3-10-q04",
+      "type": "choice",
+      "prompt": "$M=\\begin{pmatrix}2&-1&-1\\\\-1&-1&2\\\\-1&2&-1\\end{pmatrix}$，则 $M$ 不存在（ ）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第4题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-03.png",
+        "page": 1
+      },
+      "options": [
+        "QR 分解",
+        "满秩分解",
+        "奇异值分解",
+        "谱分解"
+      ],
+      "lessonId": "e01"
+    },
+    {
+      "id": "xxt-3-10-q05",
+      "type": "choice",
+      "prompt": "已知矩阵 $A=\\begin{pmatrix}-2&-2&1\\\\2&x&-2\\\\0&0&-2\\end{pmatrix}$ 与 $B=\\begin{pmatrix}2&1&0\\\\0&-1&0\\\\0&0&y\\end{pmatrix}$ 相似，则（ ）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第5题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-03.png",
+        "page": 1
+      },
+      "options": [
+        "$x=3,\\ y=-2$",
+        "$x=-3,\\ y=-2$",
+        "$x=-3,\\ y=2$",
+        "$x=3,\\ y=2$"
+      ],
+      "lessonId": "m04"
+    },
+    {
+      "id": "xxt-3-10-q06",
+      "type": "multiple",
+      "prompt": "若线性齐次方程组 $Ax=0$ 有唯一解，其中 $A\\in\\mathbb C^{m\\times n}$，$x\\in\\mathbb C^n$，则以下说法正确的是（多选）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第6题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-04.png",
+        "page": 1
+      },
+      "options": [
+        "$A^HA$ 是正定矩阵",
+        "$N(A)=\\{0\\}$",
+        "$A$ 有左逆",
+        "$N(A^HA)$ 是零空间"
+      ],
+      "lessonId": "m02"
+    },
+    {
+      "id": "xxt-3-10-q07",
+      "type": "multiple",
+      "prompt": "设 $A=\\begin{pmatrix}a&1&1\\\\0&a&1\\\\0&0&a\\end{pmatrix}$，则与 $A$ 阵相似的矩阵有（多选），其中下列选项中 $\\epsilon\\ne0$。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第7题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-04.png",
+        "page": 1
+      },
+      "options": [
+        "$\\begin{pmatrix}a&\\epsilon&0\\\\0&a&1\\\\0&0&a\\end{pmatrix}$",
+        "$\\begin{pmatrix}a&\\epsilon&0\\\\0&a&\\epsilon\\\\0&0&a\\end{pmatrix}$",
+        "$\\begin{pmatrix}a&0&0\\\\\\epsilon&a&0\\\\0&\\epsilon&a\\end{pmatrix}$",
+        "$\\begin{pmatrix}a&0&0\\\\\\epsilon&a&0\\\\0&0&a\\end{pmatrix}$"
+      ],
+      "transcriptionNote": "原图 C 选项旁另印有“=1删除”编辑文字；选项矩阵按题面转录，参见原图。",
+      "lessonId": "d06"
+    },
+    {
+      "id": "xxt-3-10-q08",
+      "type": "multiple",
+      "prompt": "关于矩阵 $A\\in\\mathbb C^{n\\times n}$ 的说法正确的是（多选）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第8题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-05.png",
+        "page": 1
+      },
+      "options": [
+        "若 $A$ 是正交矩阵，则 $A$ 必定是单纯矩阵且 $A$ 的特征值均为实数",
+        "若 $A$ 是正规矩阵，则 $A$ 的特征向量必两两正交",
+        "若 $A$ 是正定 Hermite 矩阵，则 $A$ 的所有特征值均为正实数",
+        "若 $A$ 是正交投影矩阵，则 $N(A-I)$ 是 $N(A)$ 的正交补空间"
+      ],
+      "lessonId": "d03"
+    },
+    {
+      "id": "xxt-3-10-q09",
+      "type": "multiple",
+      "prompt": "已知秩为 $r$ 的 $n$ 阶复方阵 $A$ 满足 $A^2=A$，则以下说法正确的是（多选）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第9题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-05.png",
+        "page": 1
+      },
+      "options": [
+        "$A$ 的特征值只能是 $0$ 或 $1$",
+        "$A$ 一定是单纯矩阵",
+        "若 $r=n$，则 $A$ 是单位矩阵",
+        "$A$ 的迹等于 $r$"
+      ],
+      "lessonId": "d05"
+    },
+    {
+      "id": "xxt-3-10-q10",
+      "type": "multiple",
+      "prompt": "若 $A\\in\\mathbb C^{n\\times n}$ 是 Hermite 负定矩阵，则以下说法正确的是（多选）。",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第10题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-06.png",
+        "page": 1
+      },
+      "options": [
+        "$A$ 有 $n$ 个负实数特征值",
+        "$A^HA$ 是 Hermite 负定矩阵",
+        "$A$ 酉相似于单纯矩阵",
+        "存在可逆矩阵 $G$ 使得 $A=G^2$"
+      ],
+      "lessonId": "m05"
+    },
+    {
+      "id": "xxt-3-10-q11",
+      "type": "choice",
+      "prompt": "秩相等的两个长方 $\\lambda$ 矩阵不一定相抵。（判断）",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第11题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-07.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "d06"
+    },
+    {
+      "id": "xxt-3-10-q12",
+      "type": "choice",
+      "prompt": "两个 $n$ 阶方阵具有相同的特征多项式和最小多项式，则两矩阵相似。（判断）",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第12题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-07.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "d06"
+    },
+    {
+      "id": "xxt-3-10-q13",
+      "type": "choice",
+      "prompt": "设 $A$ 是 $n$ 阶可逆实矩阵，则 $A$ 一定可表示为正交矩阵和正定矩阵的乘积。（判断）",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第13题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-07.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "e02"
+    },
+    {
+      "id": "xxt-3-10-q14",
+      "type": "choice",
+      "prompt": "$n$ 阶 $\\lambda$ 矩阵 $A(\\lambda)$ 可逆的充要条件是 $A(\\lambda)$ 的秩为 $n$。（判断）",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第14题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-07.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "d06"
+    },
+    {
+      "id": "xxt-3-10-q15",
+      "type": "choice",
+      "prompt": "设 $A$ 是 $n$ 阶复矩阵，若 $A^3=A$，则 $A$ 必定是单纯矩阵。（判断）",
+      "chapter": "decomp",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·3.10 章节测验·第15题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-3-08.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "d04"
+    },
+    {
+      "id": "xxt-4-10-q01",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a01",
+      "prompt": "若 $x$ 为 $n$ 维向量（$n>1$），对于任意的 $p>1$，$\\|x\\|_p=(\\sum_{i=1}^n |x_i|^p)^{1/p}$ 是向量范数。（判断）",
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "$p\\ge1$ 时满足正定性、绝对齐次性，三角不等式由 Minkowski 不等式保证。题目限定 $p>1$，因此成立。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第1题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q02",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a01",
+      "prompt": "如果 $x=(x_1,\\ldots,x_n)^T\\in\\mathbb C^n$，则 $\\|x\\|=|x_1|^2$ 为向量范数。（判断）",
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "该函数不满足范数的绝对齐次性：乘2后函数值放大4倍，而范数应放大2倍。$n>1$ 时，对非零向量 $(0,1,0,\\ldots)^T$ 的值还等于0，也不满足正定性。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第2题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q03",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a02",
+      "prompt": "设 $A\\in\\mathbb C^{n\\times n}$，则 $\\|A\\|_{v_2}^2\\ge\\sum_{i=1}^n|\\lambda_i|^2$。（判断，$v_2$ 按课程的矩阵元素向量2范数记号）",
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "此处 $\\|A\\|_{v_2}=\\|A\\|_F$，不是诱导2范数。用酉 Schur 分解 $A=UTU^H$，F范数不变，$\\|A\\|_F^2=\\sum_{ij}|t_{ij}|^2\\ge\\sum_i|t_{ii}|^2=\\sum_i|\\lambda_i|^2$。若误读为诱导2范数，结论通常不成立。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第3题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q04",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a06",
+      "prompt": "设 $A=\\begin{pmatrix}0&0&0\\\\-1&2&1\\\\1&-1&0\\end{pmatrix}$，则 $Ae^{At}$ 可以表示成关于 $A$ 的次数不超过1的多项式。（判断）",
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "本矩阵最小多项式为 $\\lambda(\\lambda-1)^2$。若 $f(A)=c_0I+c_1A$，对 $f(\\lambda)=\\lambda e^{t\\lambda}$，由0处取值得 $c_0=0$，1处取值得 $c_1=e^t$；重根还要求 $c_1=f'(1)=(1+t)e^t$。一般 $t\\ne0$ 时矛盾，因此不能普遍降到一次。$t=0$ 时的特殊情况不使原来的普遍断言成立。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第4题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q05",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a04",
+      "prompt": "设 $A$ 是正规矩阵，则它的谱半径等于它的谱范数。（判断）",
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "正规矩阵可酉对角化：$A=U\\operatorname{diag}(\\lambda_i)U^H$。其奇异值是 $|\\lambda_i|$，所以谱范数 $\\|A\\|_2=\\max_i|\\lambda_i|=\\rho(A)$。一般非正规矩阵只有 $\\rho(A)\\le\\|A\\|_2$。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第5题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q06",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a01",
+      "prompt": "已知 $A=\\begin{pmatrix}1&1/2&1/3\\\\1&2&1/2\\\\1/2&1&2i\\end{pmatrix}$，$x=(1,0,1)^T$，则 $\\|Ax\\|_\\infty=\\sqrt{17}/2$。（判断）",
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 0,
+      "explanation": "$Ax=(4/3,3/2,1/2+2i)^T$。三个分量的模分别为 $4/3,3/2,\\sqrt{(1/2)^2+2^2}=\\sqrt{17}/2$，其中最大的是最后一个，原式成立。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第6题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q07",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a02",
+      "prompt": "已知 $A=\\begin{pmatrix}1&0&i\\\\0&1&2\\\\-i&2&5\\end{pmatrix}$，则 $\\|A\\|_F=37$。（判断）",
+      "options": [
+        "对",
+        "错"
+      ],
+      "answer": 1,
+      "explanation": "F范数是各元素模的平方和再开平方。这里平方和为 $1+1+1+4+1+4+25=37$，因此 $\\|A\\|_F=\\sqrt{37}$，不是37。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第7题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q08",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a01",
+      "prompt": "设 $\\|\\cdot\\|_\\alpha$ 表示 $\\mathbb C^n$ 的 $\\alpha$ 范数，$\\alpha=1,2,\\ldots,\\infty$，对 $x\\in\\mathbb C^n$ 必有哪项？原题D旁注明右端范数下标应为无穷，以下按此更正显示。",
+      "options": [
+        "$\\|x\\|_1\\le\\|x\\|_2\\le\\|x\\|_\\infty$",
+        "$\\|x\\|_2\\le\\|x\\|_1\\le\\|x\\|_\\infty$",
+        "$\\|x\\|_\\infty\\le\\|x\\|_1\\le\\|x\\|_2$",
+        "$\\|x\\|_\\infty\\le\\|x\\|_1\\le n\\|x\\|_\\infty$"
+      ],
+      "answer": 3,
+      "explanation": "每一项的模不大于最大分量模，故 $\\sum_i|x_i|\\le n\\max_i|x_i|$；最大项也不大于总和，因此D成立。通常还可用 $\\|x\\|_\\infty\\le\\|x\\|_2\\le\\|x\\|_1$ 排除前3项。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第8题（依原题注明更正下标）"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q09",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a06",
+      "prompt": "设 $e^{At}=\\begin{pmatrix}e^{2t}&12e^t-12e^{2t}+13te^{2t}&-4e^t+4e^{2t}\\\\0&e^{2t}&0\\\\0&-3e^t+3e^{2t}&e^t\\end{pmatrix}$，则 $A$ 为哪项？",
+      "options": [
+        "$\\begin{pmatrix}2&1&4\\\\0&2&0\\\\0&3&1\\end{pmatrix}$",
+        "$\\begin{pmatrix}1&1&4\\\\0&1&0\\\\0&6&1\\end{pmatrix}$",
+        "$\\begin{pmatrix}2&2&4\\\\0&2&0\\\\0&3&1\\end{pmatrix}$",
+        "$\\begin{pmatrix}2&0&4\\\\0&2&0\\\\0&6&1\\end{pmatrix}$"
+      ],
+      "answer": 0,
+      "explanation": "利用 $A=\\left.\\frac{d}{dt}e^{At}\\right|_{t=0}$。逐元素求导，(1,2)元为 $12-24+13=1$，(1,3)元为 $-4+8=4$，(3,2)元为 $-3+6=3$，对角线为2、2、1，所以选A。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第9题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q10",
+      "chapter": "analysis",
+      "type": "choice",
+      "lessonId": "a05",
+      "prompt": "设 $f(A)=\\sum_{k=1}^{\\infty}A^k/k$ 收敛，则 $A$ 可以取为哪项？",
+      "options": [
+        "$\\begin{pmatrix}0&0\\\\-9&-1\\end{pmatrix}$",
+        "$\\begin{pmatrix}0&0\\\\-9&1\\end{pmatrix}$",
+        "$\\begin{pmatrix}1&0\\\\-1&1\\end{pmatrix}$",
+        "$\\begin{pmatrix}1&0\\\\0.1&1\\end{pmatrix}$"
+      ],
+      "answer": 0,
+      "explanation": "A选项满足 $A^2=-A$，故 $A^k=(-1)^{k-1}A$，矩阵级数等于收敛的交错调和级数乘固定矩阵。其余选项都含特征值1，对该特征向量作用后得到发散的调和级数，因此不收敛。这也说明幂级数在谱半径恰为1的边界处需要另行判断。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第10题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q11",
+      "chapter": "analysis",
+      "type": "multiple",
+      "lessonId": "a04",
+      "prompt": "设 $B$ 是 $n$ 阶实矩阵，若 $B$ 的 $n$ 个盖尔圆彼此分离，则 $B$ 有哪些性质？（多选）",
+      "options": [
+        "可对角化",
+        "不可对角化",
+        "所有特征值都是实数",
+        "可能出现共轭复根"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "每个孤立盖尔圆恰含一个特征值（按代数重数计），因此所有特征值互异。实矩阵的每个圆心为实数且圆盘关于实轴对称；若某盘含非实根，其共轭根也在同一盘，与恰含一个根矛盾。因此所有根实且互异，可在实数域对角化。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第11题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q12",
+      "chapter": "analysis",
+      "type": "multiple",
+      "lessonId": "a05",
+      "prompt": "若矩阵 $A$ 满足 $\\lim_{n\\to\\infty}A^n=A$，以下说法正确的是哪些？（多选）",
+      "options": [
+        "若 $A$ 可逆，则 $A$ 只能是单位矩阵",
+        "若 $A$ 可逆，则 $A$ 不一定是单位矩阵",
+        "若 $A$ 不可逆，则 $A$ 只能是零矩阵",
+        "若 $A$ 不可逆，则 $A$ 的特征值只能是0或1"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "因为 $A^{n+1}=A A^n$，取极限得到 $A=A^2$。可逆时左乘逆阵得 $A=I$；不可逆时仍是幂等阵，特征值只能为0或1，但 $\\operatorname{diag}(1,0)$ 说明不必是零矩阵。因此A、D成立。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第12题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q13",
+      "chapter": "analysis",
+      "type": "multiple",
+      "lessonId": "a05",
+      "prompt": "设 $A$ 可逆，$a=1/\\|A^{-1}\\|$，$b=\\|B-A\\|$，其中范数为诱导范数。若 $b<a$，以下说法正确的是哪些？（多选）",
+      "options": [
+        "$B$ 是可逆矩阵",
+        "$\\|B^{-1}\\|\\le1/(a-b)$",
+        "$\\|B^{-1}-A^{-1}\\|\\le b/[a(a-b)]$",
+        "$\\|(I-A)^{-1}\\|\\le1/(1-a)$"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "写 $B=A[I+A^{-1}(B-A)]$，括号内扰动的范数不大于 $b/a<1$，可用Neumann级数求逆，得到 $\\|B^{-1}\\|\\le(1/a)/(1-b/a)=1/(a-b)$。再由 $B^{-1}-A^{-1}=B^{-1}(A-B)A^{-1}$ 得到第三个估计。D没有保证 $I-A$ 可逆，也没有相应范数条件，不能推出。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第13题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q14",
+      "chapter": "analysis",
+      "type": "multiple",
+      "lessonId": "a05",
+      "prompt": "设 $A=\\begin{pmatrix}0&i/2\\\\i&0\\end{pmatrix}$，下列说法正确的是哪些？（多选）",
+      "options": [
+        "矩阵序列 $A^k$ 收敛",
+        "矩阵序列 $A^k$ 发散",
+        "矩阵幂级数 $\\sum_{k=0}^{\\infty}\\frac{(-1)^k}{2^k}A^{k+1}$ 收敛",
+        "矩阵幂级数 $\\sum_{k=0}^{\\infty}\\frac{(-1)^k}{2^k}A^{k+1}$ 绝对收敛"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "$A^2=-I/2$，所以偶次、奇次幂都趋于零，序列收敛。幂级数可写作 $A\\sum_{k\\ge0}(-A/2)^k$，且 $\\rho(-A/2)=1/(2\\sqrt2)<1$，几何矩阵级数绝对收敛，因此A、C、D正确。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第14题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-4-10-q15",
+      "chapter": "analysis",
+      "type": "multiple",
+      "lessonId": "a02",
+      "prompt": "已知 $A=\\begin{pmatrix}0&i/4&i/3&i/2\\\\i/2&0&i/4&i/3\\\\i/3&i/2&0&i/4\\\\i/4&i/3&i/2&0\\end{pmatrix}$，$x=(1,i,1,i)^T$，下列说法正确的是哪些？（多选）",
+      "options": [
+        "$\\rho(A)=13/12$",
+        "$\\|A\\|_1=13/12$",
+        "$\\|A\\|_\\infty=13/12$",
+        "$\\|Ax\\|_\\infty=13/12$"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "每行、每列的绝对值之和均为 $1/2+1/3+1/4=13/12$，故诱导1范数、无穷范数均为13/12。全1向量是A的特征向量，对应特征值 $13i/12$，结合谱半径不超过范数，可知谱半径等于13/12。直接乘得Ax各分量的模均为 $\\sqrt{(3/4)^2+(1/3)^2}=\\sqrt{97}/12$，因此D不成立。",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·4.10章节测验·第15题"
+      },
+      "answerNote": "独立推导的参考解析，非学习通官方答案。"
+    },
+    {
+      "id": "xxt-5-8-q01",
+      "type": "choice",
+      "prompt": "若 $AB=0$，则 $B^+A^+=0$。（判断）",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第1题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-01.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "e04"
+    },
+    {
+      "id": "xxt-5-8-q02",
+      "type": "choice",
+      "prompt": "定义 $W=\\{A\\in\\mathbb R^{2\\times2}\\mid\\operatorname{tr}(A)=0\\}$，以及 $T(A)=A+A^+$，$\\forall A\\in W$，则 $T$ 是 $W$ 上的线性变换。（判断）",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第2题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-01.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "m01"
+    },
+    {
+      "id": "xxt-5-8-q03",
+      "type": "choice",
+      "prompt": "设 $A\\in\\mathbb C^{m\\times n}$，如果 $A$ 行满秩，则集合 $A\\{1,4\\}=\\{A^+\\}$。（判断）",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第3题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-02.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "e03"
+    },
+    {
+      "id": "xxt-5-8-q04",
+      "type": "choice",
+      "prompt": "若 $A,B$ 是酉矩阵，则 $A\\otimes B$ 也是酉矩阵。（判断）",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第4题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-02.png",
+        "page": 1
+      },
+      "options": [
+        "对",
+        "错"
+      ],
+      "lessonId": "e06"
+    },
+    {
+      "id": "xxt-5-8-q05",
+      "type": "short",
+      "prompt": "设 $A=\\begin{pmatrix}0&-a_3&a_2\\\\a_3&0&-a_1\\\\-a_2&a_1&0\\end{pmatrix}$ 为一非零实矩阵，则 $-(a_1^2+a_2^2+a_3^2)^{-1}A$ 为 $A$ 的一个广义逆矩阵。____。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第5题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-02.png",
+        "page": 1
+      },
+      "transcriptionNote": "原题为填空，原页面末尾另印“后面有一题重复”，并设置两空。题干未明确空内应填何种形式，请对照原图；不推定标准答案。",
+      "lessonId": "e03"
+    },
+    {
+      "id": "xxt-5-8-q06",
+      "type": "choice",
+      "prompt": "设 $A$ 是 $m\\times n$ 阶复矩阵，$A^+$ 是 $A$ 的伪逆，则以下说法正确的是（ ）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第6题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-03.png",
+        "page": 1
+      },
+      "options": [
+        "存在且唯一",
+        "存在且不唯一",
+        "可能不存在",
+        "可能存在且不唯一"
+      ],
+      "lessonId": "e04"
+    },
+    {
+      "id": "xxt-5-8-q07",
+      "type": "choice",
+      "prompt": "设 $A$ 为 $m\\times n$ 复矩阵，则下述数值与 $A$ 的秩 $r(A)$ 不一定相等的是（ ）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第7题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-03.png",
+        "page": 1
+      },
+      "options": [
+        "$r(A^-)$",
+        "$\\dim R(A)$",
+        "$r(AA^+)$",
+        "$r(A^+)$"
+      ],
+      "lessonId": "e04"
+    },
+    {
+      "id": "xxt-5-8-q08",
+      "type": "choice",
+      "prompt": "齐次方程 $AX=0$ 的通解公式为（ ）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第8题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-04.png",
+        "page": 1
+      },
+      "options": [
+        "$X=(I-A^-A)Y$",
+        "$X=(I-AA^-)Y$"
+      ],
+      "lessonId": "e03"
+    },
+    {
+      "id": "xxt-5-8-q09",
+      "type": "choice",
+      "prompt": "给定矩阵 $A\\in\\mathbb R^{m\\times n}$ 和向量 $b\\in\\mathbb R^m$，$x\\in\\mathbb R^n$ 为待定向量。若方程 $Ax=b$ 不相容，则下列说法不正确的一项是（ ）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第9题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-04.png",
+        "page": 1
+      },
+      "options": [
+        "方程 $\\frac{d}{dx}(\\|Ax-b\\|_2^2)=0$ 的解不一定是不相容方程 $Ax=b$ 的最小二乘解",
+        "不相容方程 $Ax=b$ 的最小二乘解必是方程 $\\frac{d}{dx}(\\|Ax-b\\|_2^2)=0$ 的解",
+        "$R(A)\\oplus R(I-AA^+)=\\mathbb R^n$",
+        "$R(AA^T)=R(AA^+)$"
+      ],
+      "transcriptionNote": "C 选项原图右端为实数域 R 的 n 次方，按原题转录，未修正维数。",
+      "lessonId": "e05"
+    },
+    {
+      "id": "xxt-5-8-q10",
+      "type": "choice",
+      "prompt": "若 $A\\in\\mathbb R^{m\\times n}$ 且 $A$ 的 $n$ 列为标准正交的，则下列说法错误的是（ ）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第10题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-05.png",
+        "page": 1
+      },
+      "options": [
+        "$A^+=A^T$",
+        "$A^T$ 为正交矩阵",
+        "$A^TA=I_n$",
+        "非齐次相容线性方程组 $Ax=b$ 存在唯一解"
+      ],
+      "lessonId": "m05"
+    },
+    {
+      "id": "xxt-5-8-q11",
+      "type": "multiple",
+      "prompt": "设 $A$ 是 $m\\times n$ 的矩阵，$b$ 是 $m$ 维列向量，则与 $\\operatorname{rank}(A)=\\operatorname{rank}(A,b)$ 等价的命题有（多选）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第11题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-06.png",
+        "page": 1
+      },
+      "options": [
+        "$b\\in R(A)$",
+        "$AA^+b=b$",
+        "$b\\in N(A)$",
+        "$b\\in R(AA^+)$"
+      ],
+      "lessonId": "e05"
+    },
+    {
+      "id": "xxt-5-8-q12",
+      "type": "multiple",
+      "prompt": "设 $A$ 是 $n$ 阶秩为 $1$ 的复方阵，则以下说法正确的是（多选）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第12题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-06.png",
+        "page": 1
+      },
+      "options": [
+        "$A$ 阵可分解为一个列向量和一个行向量乘积",
+        "$A$ 阵必有一个非零的特征值",
+        "$A$ 阵的加号逆可表示成一个常数乘以 $A$ 阵的转置",
+        "$A$ 阵只有一个非零奇异值"
+      ],
+      "lessonId": "e04"
+    },
+    {
+      "id": "xxt-5-8-q13",
+      "type": "multiple",
+      "prompt": "设 $A$ 是 $m\\times n$ 阶复矩阵，以下等式恒成立的有（多选）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第13题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-07.png",
+        "page": 1
+      },
+      "options": [
+        "$A^HAA^+=A^H$",
+        "$A^+AA^H=A^H$",
+        "$(A^HA)^+A^H=A^+$",
+        "$(A^HA)^+A^H=A^H$"
+      ],
+      "lessonId": "e04"
+    },
+    {
+      "id": "xxt-5-8-q14",
+      "type": "multiple",
+      "prompt": "设 $A\\in\\mathbb C_r^{m\\times n}$，$\\lambda\\in\\mathbb C$，下列说法正确的是（多选）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第14题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-07.png",
+        "page": 1
+      },
+      "options": [
+        "$\\operatorname{rank}(A^+)=\\operatorname{rank}(A)$",
+        "$(\\lambda A)^+=\\lambda^+A^+$",
+        "若 $U,V$ 是 $m$ 阶和 $n$ 阶酉矩阵，则 $(UAV)^+=V^HA^+U^H$",
+        "若 $A$ 是正规矩阵，则 $(A^k)^+=(A^+)^k$，$k$ 为正整数"
+      ],
+      "lessonId": "e04"
+    },
+    {
+      "id": "xxt-5-8-q15",
+      "type": "multiple",
+      "prompt": "设 $A=\\begin{pmatrix}a&0\\\\2&b\\end{pmatrix}$，$B=\\begin{pmatrix}2&1\\\\0&3\\end{pmatrix}$，写出张量积 $A\\otimes B$ 的全部特征根是（多选）。",
+      "chapter": "extra",
+      "source": {
+        "kind": "chaoxing",
+        "label": "学习通·5.8 章节测验·第15题",
+        "privacyCropped": true,
+        "file": "learning-capture/chapter-5-08.png",
+        "page": 1
+      },
+      "options": [
+        "$2a$",
+        "$3a$",
+        "$2b$",
+        "$3b$"
+      ],
+      "lessonId": "e06"
+    }
+  ],
+  "notes": [
+    "已只读采集五章共105题，未在学习通作答、保存或提交。",
+    "原题没有显示官方答案；网页已附的解析均为独立推导，未核对的题支持先写过程、再自行标记理解情况。",
+    "平台目录含三角分解、奇异值分解与第五章广义逆，已另设测验补充课程；不据此认定为本学期期末重点。",
+    "原题存在个别编号冲突、注释或前提不完整，已保留题面并提示，不擅自猜测官方结论。"
+  ],
+  "captures": [
+    {
+      "id": "xxt-b13ddc01e9f7",
+      "label": "学习通·1.7 章节测验·原题第1页",
+      "url": "sources/xxt-b13ddc01e9f7.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-1a811ae87767",
+      "label": "学习通·1.7 章节测验·原题第2页",
+      "url": "sources/xxt-1a811ae87767.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-af1854fd34e4",
+      "label": "学习通·1.7 章节测验·原题第3页",
+      "url": "sources/xxt-af1854fd34e4.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-35924f3ac128",
+      "label": "学习通·1.7 章节测验·原题第4页",
+      "url": "sources/xxt-35924f3ac128.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-980660d95366",
+      "label": "学习通·1.7 章节测验·原题第5页",
+      "url": "sources/xxt-980660d95366.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-d1b11853828a",
+      "label": "学习通·1.7 章节测验·原题第6页",
+      "url": "sources/xxt-d1b11853828a.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-933f8642cec4",
+      "label": "学习通·1.7 章节测验·原题第7页",
+      "url": "sources/xxt-933f8642cec4.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-0644fdca43d6",
+      "label": "学习通·1.7 章节测验·原题第8页",
+      "url": "sources/xxt-0644fdca43d6.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-a4902c5521ae",
+      "label": "学习通·1.7 章节测验·原题第9页",
+      "url": "sources/xxt-a4902c5521ae.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-91dd719f0106",
+      "label": "学习通·1.7 章节测验·原题第10页",
+      "url": "sources/xxt-91dd719f0106.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-fcd1442bdc87",
+      "label": "学习通·1.7 章节测验·原题第11页",
+      "url": "sources/xxt-fcd1442bdc87.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-3f29c3a4ca2f",
+      "label": "学习通·1.7 章节测验·原题第12页",
+      "url": "sources/xxt-3f29c3a4ca2f.png",
+      "chapter": "space"
+    },
+    {
+      "id": "xxt-3ec9c15f4dd6",
+      "label": "学习通·2.7 章节测验·原题第1页",
+      "url": "sources/xxt-3ec9c15f4dd6.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-be51b57607bf",
+      "label": "学习通·2.7 章节测验·原题第2页",
+      "url": "sources/xxt-be51b57607bf.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-2506ca411bca",
+      "label": "学习通·2.7 章节测验·原题第3页",
+      "url": "sources/xxt-2506ca411bca.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-4fa4bd4ea8cd",
+      "label": "学习通·2.7 章节测验·原题第4页",
+      "url": "sources/xxt-4fa4bd4ea8cd.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-944b40f6d9c0",
+      "label": "学习通·2.7 章节测验·原题第5页",
+      "url": "sources/xxt-944b40f6d9c0.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-17af149fe794",
+      "label": "学习通·2.7 章节测验·原题第6页",
+      "url": "sources/xxt-17af149fe794.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-056c23b8ff11",
+      "label": "学习通·2.7 章节测验·原题第7页",
+      "url": "sources/xxt-056c23b8ff11.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-7ffecf773101",
+      "label": "学习通·2.7 章节测验·原题第8页",
+      "url": "sources/xxt-7ffecf773101.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-83d7e608a9b2",
+      "label": "学习通·2.7 章节测验·原题第9页",
+      "url": "sources/xxt-83d7e608a9b2.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-dd022de24a4f",
+      "label": "学习通·2.7 章节测验·原题第10页",
+      "url": "sources/xxt-dd022de24a4f.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-467a59179491",
+      "label": "学习通·2.7 章节测验·原题第11页",
+      "url": "sources/xxt-467a59179491.png",
+      "chapter": "map"
+    },
+    {
+      "id": "xxt-6344a65efea5",
+      "label": "学习通·3.10 章节测验·原题第1页",
+      "url": "sources/xxt-6344a65efea5.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-fbaf5ec0a06b",
+      "label": "学习通·3.10 章节测验·原题第2页",
+      "url": "sources/xxt-fbaf5ec0a06b.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-19afbad95398",
+      "label": "学习通·3.10 章节测验·原题第3页",
+      "url": "sources/xxt-19afbad95398.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-21ce470a4fe2",
+      "label": "学习通·3.10 章节测验·原题第4页",
+      "url": "sources/xxt-21ce470a4fe2.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-8713365ccb4a",
+      "label": "学习通·3.10 章节测验·原题第5页",
+      "url": "sources/xxt-8713365ccb4a.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-b0954fe05fe8",
+      "label": "学习通·3.10 章节测验·原题第6页",
+      "url": "sources/xxt-b0954fe05fe8.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-9ba8a1f39df9",
+      "label": "学习通·3.10 章节测验·原题第7页",
+      "url": "sources/xxt-9ba8a1f39df9.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-aaebd32cf809",
+      "label": "学习通·3.10 章节测验·原题第8页",
+      "url": "sources/xxt-aaebd32cf809.png",
+      "chapter": "decomp"
+    },
+    {
+      "id": "xxt-f1b304a43182",
+      "label": "学习通·4.10 章节测验·原题第1页",
+      "url": "sources/xxt-f1b304a43182.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-a2c27e386737",
+      "label": "学习通·4.10 章节测验·原题第2页",
+      "url": "sources/xxt-a2c27e386737.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-49eb6c54845b",
+      "label": "学习通·4.10 章节测验·原题第3页",
+      "url": "sources/xxt-49eb6c54845b.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-56a908d05a61",
+      "label": "学习通·4.10 章节测验·原题第4页",
+      "url": "sources/xxt-56a908d05a61.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-dacf3eb86854",
+      "label": "学习通·4.10 章节测验·原题第5页",
+      "url": "sources/xxt-dacf3eb86854.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-9bfd1842ae84",
+      "label": "学习通·4.10 章节测验·原题第6页",
+      "url": "sources/xxt-9bfd1842ae84.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-631493e332b1",
+      "label": "学习通·4.10 章节测验·原题第7页",
+      "url": "sources/xxt-631493e332b1.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-68942ab9030c",
+      "label": "学习通·4.10 章节测验·原题第8页",
+      "url": "sources/xxt-68942ab9030c.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-816bd92a1573",
+      "label": "学习通·4.10 章节测验·原题第9页",
+      "url": "sources/xxt-816bd92a1573.png",
+      "chapter": "analysis"
+    },
+    {
+      "id": "xxt-58d901d79ef7",
+      "label": "学习通·5.8 章节测验·原题第1页",
+      "url": "sources/xxt-58d901d79ef7.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-910fbb8a8672",
+      "label": "学习通·5.8 章节测验·原题第2页",
+      "url": "sources/xxt-910fbb8a8672.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-d484fb496831",
+      "label": "学习通·5.8 章节测验·原题第3页",
+      "url": "sources/xxt-d484fb496831.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-cab73104705a",
+      "label": "学习通·5.8 章节测验·原题第4页",
+      "url": "sources/xxt-cab73104705a.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-d7abe14f1299",
+      "label": "学习通·5.8 章节测验·原题第5页",
+      "url": "sources/xxt-d7abe14f1299.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-f6056096647a",
+      "label": "学习通·5.8 章节测验·原题第6页",
+      "url": "sources/xxt-f6056096647a.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-f7d0743fe159",
+      "label": "学习通·5.8 章节测验·原题第7页",
+      "url": "sources/xxt-f7d0743fe159.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-9f6f6291a1ba",
+      "label": "学习通·5.8 章节测验·原题第8页",
+      "url": "sources/xxt-9f6f6291a1ba.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-9c8c92e4e41f",
+      "label": "学习通·5.8 章节测验·原题第9页",
+      "url": "sources/xxt-9c8c92e4e41f.png",
+      "chapter": "extra"
+    },
+    {
+      "id": "xxt-bf81b55aaa91",
+      "label": "学习通·5.8 章节测验·原题第10页",
+      "url": "sources/xxt-bf81b55aaa91.png",
+      "chapter": "extra"
+    }
+  ],
+  "privacyCropped": true,
+  "statusLabel": "五章105道原题已全部收录"
+}

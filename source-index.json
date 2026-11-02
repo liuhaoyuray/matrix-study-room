@@ -1,0 +1,988 @@
+[
+  {
+    "id": "11c9822d79aeb4",
+    "file": "核心课程-矩阵理论I教学大纲.pdf",
+    "title": "核心课程-矩阵理论I教学大纲",
+    "url": "sources/11c9822d79aeb4.pdf",
+    "kind": "syllabus",
+    "category": "本学期教学大纲",
+    "pages": 4
+  },
+  {
+    "id": "5c340e5a1e6493",
+    "file": "矩阵理论与应用I -课件（学生）/1-第一章 线性空间/矩阵理论与应用I-第一章1-线性空间更新.pdf",
+    "title": "矩阵理论与应用I-第一章1-线性空间更新",
+    "url": "sources/5c340e5a1e6493.pdf",
+    "kind": "ppt",
+    "category": "1-第一章 线性空间",
+    "pages": 41
+  },
+  {
+    "id": "e0204c0bd5046e",
+    "file": "矩阵理论与应用I -课件（学生）/1-第一章 线性空间/矩阵理论与应用I-第一章2-线性子空间.pdf",
+    "title": "矩阵理论与应用I-第一章2-线性子空间",
+    "url": "sources/e0204c0bd5046e.pdf",
+    "kind": "ppt",
+    "category": "1-第一章 线性空间",
+    "pages": 29
+  },
+  {
+    "id": "36c560e4f1f47b",
+    "file": "矩阵理论与应用I -课件（学生）/1-第一章 线性空间/矩阵理论与应用I-第一章3-基与坐标.pdf",
+    "title": "矩阵理论与应用I-第一章3-基与坐标",
+    "url": "sources/36c560e4f1f47b.pdf",
+    "kind": "ppt",
+    "category": "1-第一章 线性空间",
+    "pages": 43
+  },
+  {
+    "id": "486eced2abbcda",
+    "file": "矩阵理论与应用I -课件（学生）/1-第一章 线性空间/矩阵理论与应用I-第一章4-内积空间.pdf",
+    "title": "矩阵理论与应用I-第一章4-内积空间",
+    "url": "sources/486eced2abbcda.pdf",
+    "kind": "ppt",
+    "category": "1-第一章 线性空间",
+    "pages": 57
+  },
+  {
+    "id": "4f89247619ec76",
+    "file": "矩阵理论与应用I -课件（学生）/1-第一章 线性空间/矩阵理论与应用I-第一章5-直和与投影.pdf",
+    "title": "矩阵理论与应用I-第一章5-直和与投影",
+    "url": "sources/4f89247619ec76.pdf",
+    "kind": "ppt",
+    "category": "1-第一章 线性空间",
+    "pages": 39
+  },
+  {
+    "id": "3c6c0bd64838e9",
+    "file": "矩阵理论与应用I -课件（学生）/2-第二章 线性映射与矩阵/矩阵理论与应用I-第二章1-映射与多项式.pdf",
+    "title": "矩阵理论与应用I-第二章1-映射与多项式",
+    "url": "sources/3c6c0bd64838e9.pdf",
+    "kind": "ppt",
+    "category": "2-第二章 线性映射与矩阵",
+    "pages": 17
+  },
+  {
+    "id": "f43aa94544098f",
+    "file": "矩阵理论与应用I -课件（学生）/2-第二章 线性映射与矩阵/矩阵理论与应用I-第二章2-线性映射.pdf",
+    "title": "矩阵理论与应用I-第二章2-线性映射",
+    "url": "sources/f43aa94544098f.pdf",
+    "kind": "ppt",
+    "category": "2-第二章 线性映射与矩阵",
+    "pages": 24
+  },
+  {
+    "id": "b83c8c7c109fa7",
+    "file": "矩阵理论与应用I -课件（学生）/2-第二章 线性映射与矩阵/矩阵理论与应用I-第二章3-矩阵与同构.pdf",
+    "title": "矩阵理论与应用I-第二章3-矩阵与同构",
+    "url": "sources/b83c8c7c109fa7.pdf",
+    "kind": "ppt",
+    "category": "2-第二章 线性映射与矩阵",
+    "pages": 34
+  },
+  {
+    "id": "df14f264f0530c",
+    "file": "矩阵理论与应用I -课件（学生）/2-第二章 线性映射与矩阵/矩阵理论与应用I-第二章4-特征值与特征向量.pdf",
+    "title": "矩阵理论与应用I-第二章4-特征值与特征向量",
+    "url": "sources/df14f264f0530c.pdf",
+    "kind": "ppt",
+    "category": "2-第二章 线性映射与矩阵",
+    "pages": 33
+  },
+  {
+    "id": "9e19326530c50a",
+    "file": "矩阵理论与应用I -课件（学生）/2-第二章 线性映射与矩阵/矩阵理论与应用I-第二章5-酉变换与酉矩阵.pdf",
+    "title": "矩阵理论与应用I-第二章5-酉变换与酉矩阵",
+    "url": "sources/9e19326530c50a.pdf",
+    "kind": "ppt",
+    "category": "2-第二章 线性映射与矩阵",
+    "pages": 28
+  },
+  {
+    "id": "df71f7b008c20a",
+    "file": "矩阵理论与应用I -课件（学生）/3-第三章 矩阵分解/矩阵理论与应用I-第三章1-满秩分解.pdf",
+    "title": "矩阵理论与应用I-第三章1-满秩分解",
+    "url": "sources/df71f7b008c20a.pdf",
+    "kind": "ppt",
+    "category": "3-第三章 矩阵分解",
+    "pages": 22
+  },
+  {
+    "id": "75be8c38b586b5",
+    "file": "矩阵理论与应用I -课件（学生）/3-第三章 矩阵分解/矩阵理论与应用I-第三章2-QR分解.pdf",
+    "title": "矩阵理论与应用I-第三章2-QR分解",
+    "url": "sources/75be8c38b586b5.pdf",
+    "kind": "ppt",
+    "category": "3-第三章 矩阵分解",
+    "pages": 19
+  },
+  {
+    "id": "a1521c65d43545",
+    "file": "矩阵理论与应用I -课件（学生）/3-第三章 矩阵分解/矩阵理论与应用I-第三章3-Schur分解.pdf",
+    "title": "矩阵理论与应用I-第三章3-Schur分解",
+    "url": "sources/a1521c65d43545.pdf",
+    "kind": "ppt",
+    "category": "3-第三章 矩阵分解",
+    "pages": 28
+  },
+  {
+    "id": "28a45bbebdbadf",
+    "file": "矩阵理论与应用I -课件（学生）/3-第三章 矩阵分解/矩阵理论与应用I-第三章4-对角化分解.pdf",
+    "title": "矩阵理论与应用I-第三章4-对角化分解",
+    "url": "sources/28a45bbebdbadf.pdf",
+    "kind": "ppt",
+    "category": "3-第三章 矩阵分解",
+    "pages": 36
+  },
+  {
+    "id": "96b46bf4130ec9",
+    "file": "矩阵理论与应用I -课件（学生）/3-第三章 矩阵分解/矩阵理论与应用I-第三章5-谱分解.pdf",
+    "title": "矩阵理论与应用I-第三章5-谱分解",
+    "url": "sources/96b46bf4130ec9.pdf",
+    "kind": "ppt",
+    "category": "3-第三章 矩阵分解",
+    "pages": 39
+  },
+  {
+    "id": "30d79436cb585f",
+    "file": "矩阵理论与应用I -课件（学生）/3-第三章 矩阵分解/矩阵理论与应用I-第三章6-Jordan分解.pdf",
+    "title": "矩阵理论与应用I-第三章6-Jordan分解",
+    "url": "sources/30d79436cb585f.pdf",
+    "kind": "ppt",
+    "category": "3-第三章 矩阵分解",
+    "pages": 60
+  },
+  {
+    "id": "b431f83c23e57f",
+    "file": "矩阵理论与应用I -课件（学生）/4-第四章 矩阵分析/矩阵理论与应用I-第四章1-向量范数.pdf",
+    "title": "矩阵理论与应用I-第四章1-向量范数",
+    "url": "sources/b431f83c23e57f.pdf",
+    "kind": "ppt",
+    "category": "4-第四章 矩阵分析",
+    "pages": 24
+  },
+  {
+    "id": "2fb8514c74c40b",
+    "file": "矩阵理论与应用I -课件（学生）/4-第四章 矩阵分析/矩阵理论与应用I-第四章2-矩阵范数.pdf",
+    "title": "矩阵理论与应用I-第四章2-矩阵范数",
+    "url": "sources/2fb8514c74c40b.pdf",
+    "kind": "ppt",
+    "category": "4-第四章 矩阵分析",
+    "pages": 27
+  },
+  {
+    "id": "f80c76589bb9f9",
+    "file": "矩阵理论与应用I -课件（学生）/4-第四章 矩阵分析/矩阵理论与应用I-第四章3-相容范数.pdf",
+    "title": "矩阵理论与应用I-第四章3-相容范数",
+    "url": "sources/f80c76589bb9f9.pdf",
+    "kind": "ppt",
+    "category": "4-第四章 矩阵分析",
+    "pages": 35
+  },
+  {
+    "id": "84022ecd177d98",
+    "file": "矩阵理论与应用I -课件（学生）/4-第四章 矩阵分析/矩阵理论与应用I-第四章4-特征值估计.pdf",
+    "title": "矩阵理论与应用I-第四章4-特征值估计",
+    "url": "sources/84022ecd177d98.pdf",
+    "kind": "ppt",
+    "category": "4-第四章 矩阵分析",
+    "pages": 40
+  },
+  {
+    "id": "1342b1652ba009",
+    "file": "矩阵理论与应用I -课件（学生）/4-第四章 矩阵分析/矩阵理论与应用I-第四章5-矩阵级数.pdf",
+    "title": "矩阵理论与应用I-第四章5-矩阵级数",
+    "url": "sources/1342b1652ba009.pdf",
+    "kind": "ppt",
+    "category": "4-第四章 矩阵分析",
+    "pages": 53
+  },
+  {
+    "id": "19b8fd850cd2f1",
+    "file": "矩阵理论与应用I -课件（学生）/4-第四章 矩阵分析/矩阵理论与应用I-第四章6-矩阵函数.pdf",
+    "title": "矩阵理论与应用I-第四章6-矩阵函数",
+    "url": "sources/19b8fd850cd2f1.pdf",
+    "kind": "ppt",
+    "category": "4-第四章 矩阵分析",
+    "pages": 59
+  },
+  {
+    "id": "abea7395f564da",
+    "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+    "title": "2017年试题",
+    "url": "sources/abea7395f564da.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 8
+  },
+  {
+    "id": "5c4e45c739b4d1",
+    "file": "矩阵理论复习资料/往年题/2017年试题及答案.pdf",
+    "title": "2017年试题及答案",
+    "url": "sources/5c4e45c739b4d1.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 8
+  },
+  {
+    "id": "9853c102bb43f1",
+    "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+    "title": "2018年试题",
+    "url": "sources/9853c102bb43f1.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 8
+  },
+  {
+    "id": "bf874bfe410c70",
+    "file": "矩阵理论复习资料/往年题/2018年试题及答案.pdf",
+    "title": "2018年试题及答案",
+    "url": "sources/bf874bfe410c70.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 8
+  },
+  {
+    "id": "60bd035296744d",
+    "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+    "title": "2019年试题",
+    "url": "sources/60bd035296744d.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 10
+  },
+  {
+    "id": "9f458929f82e07",
+    "file": "矩阵理论复习资料/往年题/2019年试题及答案.pdf",
+    "title": "2019年试题及答案",
+    "url": "sources/9f458929f82e07.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 12
+  },
+  {
+    "id": "86659ee39a4e94",
+    "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+    "title": "2020年试题",
+    "url": "sources/86659ee39a4e94.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 8
+  },
+  {
+    "id": "9fa0b70e511207",
+    "file": "矩阵理论复习资料/往年题/2020年试题及答案.pdf",
+    "title": "2020年试题及答案",
+    "url": "sources/9fa0b70e511207.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 9
+  },
+  {
+    "id": "c6914a6cd72fd4",
+    "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+    "title": "2021年试题",
+    "url": "sources/c6914a6cd72fd4.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 7
+  },
+  {
+    "id": "fa75ddcc0ba24a",
+    "file": "矩阵理论复习资料/往年题/2021年试题及答案.pdf",
+    "title": "2021年试题及答案",
+    "url": "sources/fa75ddcc0ba24a.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 7
+  },
+  {
+    "id": "2236f57adabbdc",
+    "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+    "title": "2023年试题",
+    "url": "sources/2236f57adabbdc.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 8
+  },
+  {
+    "id": "1b11f00873649c",
+    "file": "矩阵理论复习资料/往年题/2023年试题及答案.pdf",
+    "title": "2023年试题及答案",
+    "url": "sources/1b11f00873649c.pdf",
+    "kind": "past",
+    "category": "历史卷 · 请按本学期范围选题",
+    "pages": 8
+  },
+  {
+    "id": "a239a53b1017a7",
+    "file": "矩阵理论复习资料/习题/例题.pdf",
+    "title": "例题",
+    "url": "sources/a239a53b1017a7.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 9
+  },
+  {
+    "id": "641edb41096545",
+    "file": "矩阵理论复习资料/习题/例题及部分答案.pdf",
+    "title": "例题及部分答案",
+    "url": "sources/641edb41096545.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 9
+  },
+  {
+    "id": "172b0cdfe8be8d",
+    "file": "矩阵理论复习资料/习题/单纯矩阵谱分解证明及例题.pdf",
+    "title": "单纯矩阵谱分解证明及例题",
+    "url": "sources/172b0cdfe8be8d.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 13
+  },
+  {
+    "id": "5464c6087a9cb9",
+    "file": "矩阵理论复习资料/习题/特征值估计习题及答案.pdf",
+    "title": "特征值估计习题及答案",
+    "url": "sources/5464c6087a9cb9.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 7
+  },
+  {
+    "id": "44130952d8da34",
+    "file": "矩阵理论复习资料/习题/特征值估计补充.pdf",
+    "title": "特征值估计补充",
+    "url": "sources/44130952d8da34.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 16
+  },
+  {
+    "id": "18437de8115a1b",
+    "file": "矩阵理论复习资料/习题/矩阵函数习题及答案.pdf",
+    "title": "矩阵函数习题及答案",
+    "url": "sources/18437de8115a1b.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 2
+  },
+  {
+    "id": "7bf11e4ba0ed3a",
+    "file": "矩阵理论复习资料/习题/矩阵函数补充.pdf",
+    "title": "矩阵函数补充",
+    "url": "sources/7bf11e4ba0ed3a.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 13
+  },
+  {
+    "id": "5732c9a1f5d879",
+    "file": "矩阵理论复习资料/习题/第一章习题.pdf",
+    "title": "第一章习题",
+    "url": "sources/5732c9a1f5d879.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 1
+  },
+  {
+    "id": "c99d104f4c2578",
+    "file": "矩阵理论复习资料/习题/第一章习题及答案.pdf",
+    "title": "第一章习题及答案",
+    "url": "sources/c99d104f4c2578.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 5
+  },
+  {
+    "id": "53c14e8c21763b",
+    "file": "矩阵理论复习资料/习题/第二章习题.pdf",
+    "title": "第二章习题",
+    "url": "sources/53c14e8c21763b.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 1
+  },
+  {
+    "id": "6a09a4b16e4709",
+    "file": "矩阵理论复习资料/习题/第二章习题及答案.pdf",
+    "title": "第二章习题及答案",
+    "url": "sources/6a09a4b16e4709.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 5
+  },
+  {
+    "id": "4328d27cc15a27",
+    "file": "矩阵理论复习资料/习题/级数部分补充.pdf",
+    "title": "级数部分补充",
+    "url": "sources/4328d27cc15a27.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 5
+  },
+  {
+    "id": "e4b3e822d9626e",
+    "file": "矩阵理论复习资料/习题/范数部分补充——1.pdf",
+    "title": "范数部分补充——1",
+    "url": "sources/e4b3e822d9626e.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 17
+  },
+  {
+    "id": "4cd7e5a3f428cd",
+    "file": "矩阵理论复习资料/习题/范数部分补充——2.pdf",
+    "title": "范数部分补充——2",
+    "url": "sources/4cd7e5a3f428cd.pdf",
+    "kind": "exercise",
+    "category": "分章习题与补充",
+    "pages": 6
+  },
+  {
+    "id": "0b541946de4fc2",
+    "file": "矩阵论_慕课/ppt/4.2-1 矩阵的三角分解的概念.pdf",
+    "title": "4.2-1 矩阵的三角分解的概念",
+    "url": "sources/0b541946de4fc2.pdf",
+    "kind": "ppt",
+    "category": "测验补充参考",
+    "pages": 11
+  },
+  {
+    "id": "43658322dbf9f9",
+    "file": "矩阵论_慕课/ppt/4.2-3 三角分解的计算.pdf",
+    "title": "4.2-3 三角分解的计算",
+    "url": "sources/43658322dbf9f9.pdf",
+    "kind": "ppt",
+    "category": "测验补充参考",
+    "pages": 13
+  },
+  {
+    "id": "6a980339813a07",
+    "file": "1-第一章.pdf",
+    "title": "1-第一章",
+    "url": "sources/6a980339813a07.pdf",
+    "kind": "ppt",
+    "category": "测验补充参考",
+    "pages": 128
+  },
+  {
+    "id": "bd054e0261c6e7",
+    "file": "矩阵论_慕课/ppt/4.4-1 矩阵的奇异值分解.pdf",
+    "title": "4.4-1 矩阵的奇异值分解",
+    "url": "sources/bd054e0261c6e7.pdf",
+    "kind": "ppt",
+    "category": "测验补充参考",
+    "pages": 16
+  },
+  {
+    "id": "a2b4912c811cf7",
+    "file": "矩阵论_慕课/ppt/4.4-2 极小范数最小二乘解.pdf",
+    "title": "4.4-2 极小范数最小二乘解",
+    "url": "sources/a2b4912c811cf7.pdf",
+    "kind": "ppt",
+    "category": "测验补充参考",
+    "pages": 8
+  },
+  {
+    "id": "xxt-b13ddc01e9f7",
+    "file": "learning-capture/chapter-1-01.png",
+    "title": "学习通·1.7 章节测验·原题第1页",
+    "url": "sources/xxt-b13ddc01e9f7.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-1a811ae87767",
+    "file": "learning-capture/chapter-1-02.png",
+    "title": "学习通·1.7 章节测验·原题第2页",
+    "url": "sources/xxt-1a811ae87767.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-af1854fd34e4",
+    "file": "learning-capture/chapter-1-03.png",
+    "title": "学习通·1.7 章节测验·原题第3页",
+    "url": "sources/xxt-af1854fd34e4.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-35924f3ac128",
+    "file": "learning-capture/chapter-1-04.png",
+    "title": "学习通·1.7 章节测验·原题第4页",
+    "url": "sources/xxt-35924f3ac128.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-980660d95366",
+    "file": "learning-capture/chapter-1-05.png",
+    "title": "学习通·1.7 章节测验·原题第5页",
+    "url": "sources/xxt-980660d95366.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-d1b11853828a",
+    "file": "learning-capture/chapter-1-06.png",
+    "title": "学习通·1.7 章节测验·原题第6页",
+    "url": "sources/xxt-d1b11853828a.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-933f8642cec4",
+    "file": "learning-capture/chapter-1-07.png",
+    "title": "学习通·1.7 章节测验·原题第7页",
+    "url": "sources/xxt-933f8642cec4.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-0644fdca43d6",
+    "file": "learning-capture/chapter-1-08.png",
+    "title": "学习通·1.7 章节测验·原题第8页",
+    "url": "sources/xxt-0644fdca43d6.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-a4902c5521ae",
+    "file": "learning-capture/chapter-1-09.png",
+    "title": "学习通·1.7 章节测验·原题第9页",
+    "url": "sources/xxt-a4902c5521ae.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-91dd719f0106",
+    "file": "learning-capture/chapter-1-10.png",
+    "title": "学习通·1.7 章节测验·原题第10页",
+    "url": "sources/xxt-91dd719f0106.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-fcd1442bdc87",
+    "file": "learning-capture/chapter-1-11.png",
+    "title": "学习通·1.7 章节测验·原题第11页",
+    "url": "sources/xxt-fcd1442bdc87.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-3f29c3a4ca2f",
+    "file": "learning-capture/chapter-1-12.png",
+    "title": "学习通·1.7 章节测验·原题第12页",
+    "url": "sources/xxt-3f29c3a4ca2f.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-3ec9c15f4dd6",
+    "file": "learning-capture/chapter-2-01.png",
+    "title": "学习通·2.7 章节测验·原题第1页",
+    "url": "sources/xxt-3ec9c15f4dd6.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-be51b57607bf",
+    "file": "learning-capture/chapter-2-02.png",
+    "title": "学习通·2.7 章节测验·原题第2页",
+    "url": "sources/xxt-be51b57607bf.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-2506ca411bca",
+    "file": "learning-capture/chapter-2-03.png",
+    "title": "学习通·2.7 章节测验·原题第3页",
+    "url": "sources/xxt-2506ca411bca.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-4fa4bd4ea8cd",
+    "file": "learning-capture/chapter-2-04.png",
+    "title": "学习通·2.7 章节测验·原题第4页",
+    "url": "sources/xxt-4fa4bd4ea8cd.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-944b40f6d9c0",
+    "file": "learning-capture/chapter-2-05.png",
+    "title": "学习通·2.7 章节测验·原题第5页",
+    "url": "sources/xxt-944b40f6d9c0.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-17af149fe794",
+    "file": "learning-capture/chapter-2-06.png",
+    "title": "学习通·2.7 章节测验·原题第6页",
+    "url": "sources/xxt-17af149fe794.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-056c23b8ff11",
+    "file": "learning-capture/chapter-2-07.png",
+    "title": "学习通·2.7 章节测验·原题第7页",
+    "url": "sources/xxt-056c23b8ff11.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-7ffecf773101",
+    "file": "learning-capture/chapter-2-08.png",
+    "title": "学习通·2.7 章节测验·原题第8页",
+    "url": "sources/xxt-7ffecf773101.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-83d7e608a9b2",
+    "file": "learning-capture/chapter-2-09.png",
+    "title": "学习通·2.7 章节测验·原题第9页",
+    "url": "sources/xxt-83d7e608a9b2.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-dd022de24a4f",
+    "file": "learning-capture/chapter-2-10.png",
+    "title": "学习通·2.7 章节测验·原题第10页",
+    "url": "sources/xxt-dd022de24a4f.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-467a59179491",
+    "file": "learning-capture/chapter-2-11.png",
+    "title": "学习通·2.7 章节测验·原题第11页",
+    "url": "sources/xxt-467a59179491.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-6344a65efea5",
+    "file": "learning-capture/chapter-3-01.png",
+    "title": "学习通·3.10 章节测验·原题第1页",
+    "url": "sources/xxt-6344a65efea5.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-fbaf5ec0a06b",
+    "file": "learning-capture/chapter-3-02.png",
+    "title": "学习通·3.10 章节测验·原题第2页",
+    "url": "sources/xxt-fbaf5ec0a06b.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-19afbad95398",
+    "file": "learning-capture/chapter-3-03.png",
+    "title": "学习通·3.10 章节测验·原题第3页",
+    "url": "sources/xxt-19afbad95398.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-21ce470a4fe2",
+    "file": "learning-capture/chapter-3-04.png",
+    "title": "学习通·3.10 章节测验·原题第4页",
+    "url": "sources/xxt-21ce470a4fe2.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-8713365ccb4a",
+    "file": "learning-capture/chapter-3-05.png",
+    "title": "学习通·3.10 章节测验·原题第5页",
+    "url": "sources/xxt-8713365ccb4a.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-b0954fe05fe8",
+    "file": "learning-capture/chapter-3-06.png",
+    "title": "学习通·3.10 章节测验·原题第6页",
+    "url": "sources/xxt-b0954fe05fe8.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-9ba8a1f39df9",
+    "file": "learning-capture/chapter-3-07.png",
+    "title": "学习通·3.10 章节测验·原题第7页",
+    "url": "sources/xxt-9ba8a1f39df9.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-aaebd32cf809",
+    "file": "learning-capture/chapter-3-08.png",
+    "title": "学习通·3.10 章节测验·原题第8页",
+    "url": "sources/xxt-aaebd32cf809.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-f1b304a43182",
+    "file": "learning-capture/chapter-4-01.png",
+    "title": "学习通·4.10 章节测验·原题第1页",
+    "url": "sources/xxt-f1b304a43182.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-a2c27e386737",
+    "file": "learning-capture/chapter-4-02.png",
+    "title": "学习通·4.10 章节测验·原题第2页",
+    "url": "sources/xxt-a2c27e386737.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-49eb6c54845b",
+    "file": "learning-capture/chapter-4-03.png",
+    "title": "学习通·4.10 章节测验·原题第3页",
+    "url": "sources/xxt-49eb6c54845b.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-56a908d05a61",
+    "file": "learning-capture/chapter-4-04.png",
+    "title": "学习通·4.10 章节测验·原题第4页",
+    "url": "sources/xxt-56a908d05a61.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-dacf3eb86854",
+    "file": "learning-capture/chapter-4-05.png",
+    "title": "学习通·4.10 章节测验·原题第5页",
+    "url": "sources/xxt-dacf3eb86854.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-9bfd1842ae84",
+    "file": "learning-capture/chapter-4-06.png",
+    "title": "学习通·4.10 章节测验·原题第6页",
+    "url": "sources/xxt-9bfd1842ae84.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-631493e332b1",
+    "file": "learning-capture/chapter-4-07.png",
+    "title": "学习通·4.10 章节测验·原题第7页",
+    "url": "sources/xxt-631493e332b1.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-68942ab9030c",
+    "file": "learning-capture/chapter-4-08.png",
+    "title": "学习通·4.10 章节测验·原题第8页",
+    "url": "sources/xxt-68942ab9030c.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-816bd92a1573",
+    "file": "learning-capture/chapter-4-09.png",
+    "title": "学习通·4.10 章节测验·原题第9页",
+    "url": "sources/xxt-816bd92a1573.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-58d901d79ef7",
+    "file": "learning-capture/chapter-5-01.png",
+    "title": "学习通·5.8 章节测验·原题第1页",
+    "url": "sources/xxt-58d901d79ef7.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-910fbb8a8672",
+    "file": "learning-capture/chapter-5-02.png",
+    "title": "学习通·5.8 章节测验·原题第2页",
+    "url": "sources/xxt-910fbb8a8672.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-d484fb496831",
+    "file": "learning-capture/chapter-5-03.png",
+    "title": "学习通·5.8 章节测验·原题第3页",
+    "url": "sources/xxt-d484fb496831.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-cab73104705a",
+    "file": "learning-capture/chapter-5-04.png",
+    "title": "学习通·5.8 章节测验·原题第4页",
+    "url": "sources/xxt-cab73104705a.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-d7abe14f1299",
+    "file": "learning-capture/chapter-5-05.png",
+    "title": "学习通·5.8 章节测验·原题第5页",
+    "url": "sources/xxt-d7abe14f1299.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-f6056096647a",
+    "file": "learning-capture/chapter-5-06.png",
+    "title": "学习通·5.8 章节测验·原题第6页",
+    "url": "sources/xxt-f6056096647a.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-f7d0743fe159",
+    "file": "learning-capture/chapter-5-07.png",
+    "title": "学习通·5.8 章节测验·原题第7页",
+    "url": "sources/xxt-f7d0743fe159.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-9f6f6291a1ba",
+    "file": "learning-capture/chapter-5-08.png",
+    "title": "学习通·5.8 章节测验·原题第8页",
+    "url": "sources/xxt-9f6f6291a1ba.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-9c8c92e4e41f",
+    "file": "learning-capture/chapter-5-09.png",
+    "title": "学习通·5.8 章节测验·原题第9页",
+    "url": "sources/xxt-9c8c92e4e41f.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  },
+  {
+    "id": "xxt-bf81b55aaa91",
+    "file": "learning-capture/chapter-5-10.png",
+    "title": "学习通·5.8 章节测验·原题第10页",
+    "url": "sources/xxt-bf81b55aaa91.png",
+    "kind": "chaoxing",
+    "category": "学习通原题截图 · 无官方答案",
+    "pages": 1,
+    "format": "image"
+  }
+]

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#183f37">
+  <meta name="description" content="矩阵理论 I 的个人学习室：从够用的线代基础出发，把概念、例题、学习通章节测验和往年期末题连起来。">
+  <title>矩阵学习室 · 2026 秋</title>
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/katex/katex.min.js"></script>
+  <script defer src="vendor/katex/contrib/auto-render.min.js"></script>
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到学习内容</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#home" aria-label="矩阵学习室首页"><span class="brand-icon">[<span>m</span>]</span><span>矩阵学习室<small>MATRIX STUDY ROOM</small></span></a>
+    <div class="semester-label"><span class="status-dot"></span>2026 秋 · 矩阵理论 I</div>
+    <nav id="main-nav" aria-label="主导航"></nav>
+    <div class="side-course"><div class="tiny-label">这学期的主线</div><div id="side-chapters"></div></div>
+    <div class="sidebar-bottom"><div class="progress-caption"><span>课程进度</span><strong id="side-progress-text">0 / 24</strong></div><div class="progress-track"><div id="side-progress-bar"></div></div><p>一次弄懂一点，就在往前走。</p><button class="text-button" id="export-progress">备份学习记录 ↗</button></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="topbar-left"><button id="menu-toggle" class="icon-button mobile-only" aria-label="展开导航" aria-expanded="false">☰</button><span id="breadcrumb">我的学习台</span></div><label class="searchbox"><span aria-hidden="true">⌕</span><input id="global-search" type="search" placeholder="搜索概念、题目或章节…" aria-label="搜索课程"></label><span class="topbar-tag">闭卷 80% <i></i> 平时 20%</span></header>
+    <main id="main" tabindex="-1"><div class="loading">正在打开学习室…</div></main>
+    <footer><span>矩阵理论与应用 I · 个人学习空间</span><span>学习记录保存在当前浏览器，可导出备份</span></footer>
+  </div>
+  <dialog id="source-dialog"><div class="dialog-head"><div><span class="tiny-label">原始资料</span><h3 id="source-title"></h3></div><button id="close-source" class="icon-button" aria-label="关闭资料">×</button></div><iframe id="source-frame" title="课程原始资料"></iframe><a id="source-open" target="_blank" rel="noopener">在新标签打开 ↗</a></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
