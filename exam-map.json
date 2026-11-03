@@ -1,0 +1,2807 @@
+{
+  "version": 2,
+  "sample": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2023
+    ],
+    "size": 6,
+    "excluded": "未编号年份的试题1—8不纳入频次；答案版不作为额外一份试卷。",
+    "countRule": "同一主题同一份试卷出现多次只计1份。paperCount/6是样本出现卷数，不是本学期出题概率；跨主题重叠题目、分值不得相加。",
+    "pointsRule": "points为null表示题型混合、一个编号含多空、或合并定位，未可靠拆分分值；不是0分。整卷大题分值以papers.items为准。",
+    "pageRule": "page为PDF文件页序，从1开始；与页面印刷页码不一定相同。",
+    "sourceReliability": "已视觉复核六份试卷全部题面。PDF隐藏文本层含答案和排版错序；题面依据可见页面，解析独立推导，不宣称官方答案认证。"
+  },
+  "grading": {
+    "online": 20,
+    "final": 80,
+    "finalMode": "闭卷",
+    "examDate": "尚未从本学期通知确认"
+  },
+  "papers": [
+    {
+      "year": 2017,
+      "title": "2017年文件",
+      "totalPoints": 100,
+      "pages": 8,
+      "note": "卷面大题连续一至八。六、八印有“作业”字样；仍作为文件内容记录，不据此断言当年课堂实施。",
+      "items": [
+        {
+          "label": "一、填空",
+          "page": 1,
+          "points": 20,
+          "prompt": "相似与对角化；Kronecker积及其特征值；向量范数；矩阵范数；子空间和的维数",
+          "topics": [
+            "jordan",
+            "norms",
+            "subspace-sum"
+          ],
+          "scope": "混合：Kronecker积为补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 1,
+            "label": "2017 一、填空"
+          },
+          "task": "相似与对角化；Kronecker积及其特征值；向量范数；矩阵范数；子空间和的维数"
+        },
+        {
+          "label": "二",
+          "page": 2,
+          "points": 10,
+          "prompt": "由λI−A的等价对角阵求初等因子、不变因子、最小多项式及Jordan形",
+          "topics": [
+            "jordan"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 2,
+            "label": "2017 二"
+          },
+          "task": "由λI−A的等价对角阵求初等因子、不变因子、最小多项式及Jordan形"
+        },
+        {
+          "label": "三",
+          "page": 3,
+          "points": 10,
+          "prompt": "用盖尔圆隔离特征值并画图",
+          "topics": [
+            "gershgorin"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 3,
+            "label": "2017 三"
+          },
+          "task": "用盖尔圆隔离特征值并画图"
+        },
+        {
+          "label": "四",
+          "page": 4,
+          "points": 10,
+          "prompt": "求A的值域维数和核",
+          "topics": [
+            "image-kernel"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 4,
+            "label": "2017 四"
+          },
+          "task": "求A的值域维数和核"
+        },
+        {
+          "label": "五",
+          "page": 5,
+          "points": 10,
+          "prompt": "求三阶矩阵的QR分解",
+          "topics": [
+            "gram-qr"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 5,
+            "label": "2017 五"
+          },
+          "task": "求三阶矩阵的QR分解"
+        },
+        {
+          "label": "六",
+          "page": 6,
+          "points": 15,
+          "prompt": "验证Ax=b不相容，用A⁺表示最小二乘解通解",
+          "topics": [
+            "least-squares"
+          ],
+          "scope": "学习通第五章/旧卷补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 6,
+            "label": "2017 六"
+          },
+          "task": "验证Ax=b不相容，用A⁺表示最小二乘解通解"
+        },
+        {
+          "label": "七",
+          "page": 7,
+          "points": 15,
+          "prompt": "计算e^(At)，用矩阵函数法求非齐次微分方程初值解",
+          "topics": [
+            "matrix-functions"
+          ],
+          "scope": "混合：矩阵指数属I；微分方程应用为补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 7,
+            "label": "2017 七"
+          },
+          "task": "计算e^(At)，用矩阵函数法求非齐次微分方程初值解"
+        },
+        {
+          "label": "八",
+          "page": 8,
+          "points": 10,
+          "prompt": "求解矩阵方程AX+XB=C",
+          "topics": [
+            "matrix-equation"
+          ],
+          "scope": "旧卷补充/Kronecker矩阵方程",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 8,
+            "label": "2017 八"
+          },
+          "task": "求解矩阵方程AX+XB=C"
+        }
+      ],
+      "structureLabel": "一、填空 20分 + 二 10分 + 三 10分 + 四 10分 + 五 10分 + 六 15分 + 七 15分 + 八 10分"
+    },
+    {
+      "year": 2018,
+      "title": "2018年文件",
+      "totalPoints": 100,
+      "pages": 8,
+      "note": "二之后直接编号四、五；按原题编号保留，不补造第三题。",
+      "items": [
+        {
+          "label": "一、填空",
+          "page": 1,
+          "points": 30,
+          "prompt": "幂等矩阵与相似；Jordan及因子；向量范数；矩阵范数及谱半径；Penrose方程；块矩阵广义逆；由sin(At)求A；矩阵级数",
+          "topics": [
+            "idempotent",
+            "jordan",
+            "norms",
+            "least-squares",
+            "matrix-functions",
+            "series"
+          ],
+          "scope": "混合：广义逆为补充，跨PDF1—2页",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 1,
+            "label": "2018 一、填空"
+          },
+          "task": "幂等矩阵与相似；Jordan及因子；向量范数；矩阵范数及谱半径；Penrose方程；块矩阵广义逆；由sin(At)求A；矩阵级数"
+        },
+        {
+          "label": "二(1)",
+          "page": 3,
+          "points": 10,
+          "prompt": "在2范数下计算x、y及Tx、Ty的距离",
+          "topics": [
+            "norms"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 3,
+            "label": "2018 二(1)"
+          },
+          "task": "在2范数下计算x、y及Tx、Ty的距离"
+        },
+        {
+          "label": "二(2)",
+          "page": 4,
+          "points": 10,
+          "prompt": "给定内积求两个向量张成空间的正交补",
+          "topics": [
+            "orthogonal-complement"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 4,
+            "label": "2018 二(2)"
+          },
+          "task": "给定内积求两个向量张成空间的正交补"
+        },
+        {
+          "label": "二(3)",
+          "page": 5,
+          "points": 10,
+          "prompt": "用盖尔圆隔离四阶矩阵特征值并画图",
+          "topics": [
+            "gershgorin"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 5,
+            "label": "2018 二(3)"
+          },
+          "task": "用盖尔圆隔离四阶矩阵特征值并画图"
+        },
+        {
+          "label": "二(4)",
+          "page": 6,
+          "points": 10,
+          "prompt": "求二阶实对称矩阵的谱分解",
+          "topics": [
+            "spectral"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 6,
+            "label": "2018 二(4)"
+          },
+          "task": "求二阶实对称矩阵的谱分解"
+        },
+        {
+          "label": "四",
+          "page": 7,
+          "points": 15,
+          "prompt": "判断Ax=b是否相容；求极小范数解或极小范数最小二乘解",
+          "topics": [
+            "least-squares"
+          ],
+          "scope": "学习通第五章/旧卷补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 7,
+            "label": "2018 四"
+          },
+          "task": "判断Ax=b是否相容；求极小范数解或极小范数最小二乘解"
+        },
+        {
+          "label": "五",
+          "page": 8,
+          "points": 15,
+          "prompt": "求e^(At)，求非齐次微分方程初值解",
+          "topics": [
+            "matrix-functions"
+          ],
+          "scope": "混合：矩阵指数属I；微分方程应用为补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 8,
+            "label": "2018 五"
+          },
+          "task": "求e^(At)，求非齐次微分方程初值解"
+        }
+      ],
+      "structureLabel": "一、填空 30分 + 二(1) 10分 + 二(2) 10分 + 二(3) 10分 + 二(4) 10分 + 四 15分 + 五 15分"
+    },
+    {
+      "year": 2019,
+      "title": "2019年文件",
+      "totalPoints": 100,
+      "pages": 10,
+      "note": "填空30+计算40+三个综合题各10，总计100。",
+      "items": [
+        {
+          "label": "一、填空",
+          "page": 1,
+          "points": 30,
+          "prompt": "重特征根与Jordan；最小多项式及因子；从属范数和f(A)；矩阵导数；Penrose方程；秩一矩阵特征多项式；向量范数；奇异值；谱分解的谱值",
+          "topics": [
+            "jordan",
+            "norms",
+            "matrix-functions",
+            "least-squares",
+            "spectral"
+          ],
+          "scope": "混合：奇异值/广义逆/矩阵微积分为补充，跨PDF1—2页",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 1,
+            "label": "2019 一、填空"
+          },
+          "task": "重特征根与Jordan；最小多项式及因子；从属范数和f(A)；矩阵导数；Penrose方程；秩一矩阵特征多项式；向量范数；奇异值；谱分解的谱值"
+        },
+        {
+          "label": "二(1)",
+          "page": 3,
+          "points": 8,
+          "prompt": "由λI−A的等价对角阵求因子、Smith形、Jordan形、最小多项式",
+          "topics": [
+            "jordan"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 3,
+            "label": "2019 二(1)"
+          },
+          "task": "由λI−A的等价对角阵求因子、Smith形、Jordan形、最小多项式"
+        },
+        {
+          "label": "二(2)",
+          "page": 4,
+          "points": 8,
+          "prompt": "由指定基向量的像求线性变换的像和核的一组基",
+          "topics": [
+            "image-kernel",
+            "map-matrix"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 4,
+            "label": "2019 二(2)"
+          },
+          "task": "由指定基向量的像求线性变换的像和核的一组基"
+        },
+        {
+          "label": "二(3)",
+          "page": 5,
+          "points": 8,
+          "prompt": "用盖尔圆隔离特征值并利用实矩阵性质改进结果",
+          "topics": [
+            "gershgorin"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 5,
+            "label": "2019 二(3)"
+          },
+          "task": "用盖尔圆隔离特征值并利用实矩阵性质改进结果"
+        },
+        {
+          "label": "二(4)",
+          "page": 6,
+          "points": 8,
+          "prompt": "已知A⁺求矩阵A",
+          "topics": [
+            "least-squares"
+          ],
+          "scope": "学习通第五章/旧卷补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 6,
+            "label": "2019 二(4)"
+          },
+          "task": "已知A⁺求矩阵A"
+        },
+        {
+          "label": "二(5)",
+          "page": 7,
+          "points": 8,
+          "prompt": "求线性常系数齐次微分方程组的通解",
+          "topics": [
+            "matrix-functions"
+          ],
+          "scope": "矩阵函数应用/微分方程补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 7,
+            "label": "2019 二(5)"
+          },
+          "task": "求线性常系数齐次微分方程组的通解"
+        },
+        {
+          "label": "三",
+          "page": 8,
+          "points": 10,
+          "prompt": "判断Ax=b相容性，写最小二乘正规方程并求极小范数最小二乘解",
+          "topics": [
+            "least-squares"
+          ],
+          "scope": "学习通第五章/旧卷补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 8,
+            "label": "2019 三"
+          },
+          "task": "判断Ax=b相容性，写最小二乘正规方程并求极小范数最小二乘解"
+        },
+        {
+          "label": "四",
+          "page": 9,
+          "points": 10,
+          "prompt": "写向量/矩阵范数定义，算距离及矩阵2范数",
+          "topics": [
+            "norms"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 9,
+            "label": "2019 四"
+          },
+          "task": "写向量/矩阵范数定义，算距离及矩阵2范数"
+        },
+        {
+          "label": "五",
+          "page": 10,
+          "points": 10,
+          "prompt": "求齐次方程解空间标准正交基及正交补",
+          "topics": [
+            "image-kernel",
+            "orthogonal-complement",
+            "gram-qr"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 10,
+            "label": "2019 五"
+          },
+          "task": "求齐次方程解空间标准正交基及正交补"
+        }
+      ],
+      "structureLabel": "一、填空 30分 + 二(1) 8分 + 二(2) 8分 + 二(3) 8分 + 二(4) 8分 + 二(5) 8分 + 三 10分 + 四 10分 + 五 10分"
+    },
+    {
+      "year": 2020,
+      "title": "2020年文件",
+      "totalPoints": 100,
+      "pages": 8,
+      "note": "二之后直接编号四、五、六；最后两页印刷页码8、9，但PDF文件页序7、8。网站一律用PDF页序。",
+      "items": [
+        {
+          "label": "一、填空",
+          "page": 1,
+          "points": 30,
+          "prompt": "Jordan及因子；酉矩阵和广义逆；子空间交维数；范数/距离；矩阵指数恒等式；奇异值；满秩分解；方程相容性和通解",
+          "topics": [
+            "jordan",
+            "norms",
+            "subspace-sum",
+            "least-squares",
+            "matrix-functions",
+            "full-rank"
+          ],
+          "scope": "混合：奇异值和广义逆为补充，跨PDF1—2页",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 1,
+            "label": "2020 一、填空"
+          },
+          "task": "Jordan及因子；酉矩阵和广义逆；子空间交维数；范数/距离；矩阵指数恒等式；奇异值；满秩分解；方程相容性和通解"
+        },
+        {
+          "label": "二(1)",
+          "page": 2,
+          "points": 8,
+          "prompt": "在积分内积下求次数小于3多项式空间的标准正交基",
+          "topics": [
+            "gram-qr"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 2,
+            "label": "2020 二(1)"
+          },
+          "task": "在积分内积下求次数小于3多项式空间的标准正交基"
+        },
+        {
+          "label": "二(2)",
+          "page": 3,
+          "points": 8,
+          "prompt": "由λI−A等价对角阵求因子、最小多项式、Jordan形",
+          "topics": [
+            "jordan"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 3,
+            "label": "2020 二(2)"
+          },
+          "task": "由λI−A等价对角阵求因子、最小多项式、Jordan形"
+        },
+        {
+          "label": "二(3)",
+          "page": 4,
+          "points": 8,
+          "prompt": "求R⁴中两向量张成空间的正交补",
+          "topics": [
+            "orthogonal-complement"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 4,
+            "label": "2020 二(3)"
+          },
+          "task": "求R⁴中两向量张成空间的正交补"
+        },
+        {
+          "label": "二(4)",
+          "page": 4,
+          "points": 8,
+          "prompt": "用盖尔圆隔离特征值并画图",
+          "topics": [
+            "gershgorin"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 4,
+            "label": "2020 二(4)"
+          },
+          "task": "用盖尔圆隔离特征值并画图"
+        },
+        {
+          "label": "二(5)",
+          "page": 5,
+          "points": 8,
+          "prompt": "由指定基向量的像求线性变换的像与核",
+          "topics": [
+            "image-kernel",
+            "map-matrix"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 5,
+            "label": "2020 二(5)"
+          },
+          "task": "由指定基向量的像求线性变换的像与核"
+        },
+        {
+          "label": "四",
+          "page": 6,
+          "points": 10,
+          "prompt": "求e^A的谱分解及谱半径",
+          "topics": [
+            "spectral",
+            "matrix-functions"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 6,
+            "label": "2020 四"
+          },
+          "task": "求e^A的谱分解及谱半径"
+        },
+        {
+          "label": "五",
+          "page": 7,
+          "points": 10,
+          "prompt": "求满秩分解、A⁺，判断相容性并求极小范数（最小二乘）解",
+          "topics": [
+            "full-rank",
+            "least-squares"
+          ],
+          "scope": "混合：满秩分解属I，广义逆与最小二乘为补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 7,
+            "label": "2020 五"
+          },
+          "task": "求满秩分解、A⁺，判断相容性并求极小范数（最小二乘）解"
+        },
+        {
+          "label": "六",
+          "page": 8,
+          "points": 10,
+          "prompt": "求e^(At)，用矩阵函数法求非齐次方程初值解",
+          "topics": [
+            "matrix-functions"
+          ],
+          "scope": "混合：矩阵指数属I；微分方程应用为补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 8,
+            "label": "2020 六"
+          },
+          "task": "求e^(At)，用矩阵函数法求非齐次方程初值解"
+        }
+      ],
+      "structureLabel": "一、填空 30分 + 二(1) 8分 + 二(2) 8分 + 二(3) 8分 + 二(4) 8分 + 二(5) 8分 + 四 10分 + 五 10分 + 六 10分"
+    },
+    {
+      "year": 2021,
+      "title": "2021年文件",
+      "totalPoints": 100,
+      "pages": 7,
+      "note": "文件名2021，标题2021—2022学年，卷头日期印为2021年1月13日，存在矛盾；不擅自改成2022。二后直接四、五、六。",
+      "items": [
+        {
+          "label": "一、填空",
+          "page": 1,
+          "points": 30,
+          "prompt": "Jordan及因子；秩一矩阵特征多项式；酉矩阵与广义逆；范数及谱半径；指数；Penrose方程；det(e^A)；相容性及通解",
+          "topics": [
+            "jordan",
+            "norms",
+            "least-squares",
+            "matrix-functions"
+          ],
+          "scope": "混合：广义逆为补充，跨PDF1—2页",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 1,
+            "label": "2021 一、填空"
+          },
+          "task": "Jordan及因子；秩一矩阵特征多项式；酉矩阵与广义逆；范数及谱半径；指数；Penrose方程；det(e^A)；相容性及通解"
+        },
+        {
+          "label": "二(1)",
+          "page": 2,
+          "points": 8,
+          "prompt": "求两个生成子空间的和、交",
+          "topics": [
+            "subspace-sum"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 2,
+            "label": "2021 二(1)"
+          },
+          "task": "求两个生成子空间的和、交"
+        },
+        {
+          "label": "二(2)",
+          "page": 3,
+          "points": 8,
+          "prompt": "求A值域的正交补",
+          "topics": [
+            "image-kernel",
+            "orthogonal-complement"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 3,
+            "label": "2021 二(2)"
+          },
+          "task": "求A值域的正交补"
+        },
+        {
+          "label": "二(3)",
+          "page": 3,
+          "points": 8,
+          "prompt": "求初等因子、不变因子、Smith形、Jordan形、最小多项式",
+          "topics": [
+            "jordan"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 3,
+            "label": "2021 二(3)"
+          },
+          "task": "求初等因子、不变因子、Smith形、Jordan形、最小多项式"
+        },
+        {
+          "label": "二(4)",
+          "page": 4,
+          "points": 8,
+          "prompt": "用盖尔圆隔离特征值并画图",
+          "topics": [
+            "gershgorin"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 4,
+            "label": "2021 二(4)"
+          },
+          "task": "用盖尔圆隔离特征值并画图"
+        },
+        {
+          "label": "二(5)",
+          "page": 5,
+          "points": 8,
+          "prompt": "求四阶矩阵的满秩分解",
+          "topics": [
+            "full-rank"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 5,
+            "label": "2021 二(5)"
+          },
+          "task": "求四阶矩阵的满秩分解"
+        },
+        {
+          "label": "四",
+          "page": 5,
+          "points": 10,
+          "prompt": "求Ax=b的极小范数最小二乘解",
+          "topics": [
+            "least-squares"
+          ],
+          "scope": "学习通第五章/旧卷补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 5,
+            "label": "2021 四"
+          },
+          "task": "求Ax=b的极小范数最小二乘解"
+        },
+        {
+          "label": "五",
+          "page": 6,
+          "points": 10,
+          "prompt": "求齐次微分方程基础解系及非齐次初值解",
+          "topics": [
+            "matrix-functions"
+          ],
+          "scope": "矩阵函数应用/微分方程补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 6,
+            "label": "2021 五"
+          },
+          "task": "求齐次微分方程基础解系及非齐次初值解"
+        },
+        {
+          "label": "六",
+          "page": 7,
+          "points": 10,
+          "prompt": "求多项式子空间一组基及线性变换在此基下的矩阵",
+          "topics": [
+            "map-matrix"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 7,
+            "label": "2021 六"
+          },
+          "task": "求多项式子空间一组基及线性变换在此基下的矩阵"
+        }
+      ],
+      "structureLabel": "一、填空 30分 + 二(1) 8分 + 二(2) 8分 + 二(3) 8分 + 二(4) 8分 + 二(5) 8分 + 四 10分 + 五 10分 + 六 10分"
+    },
+    {
+      "year": 2023,
+      "title": "2023年文件",
+      "totalPoints": 100,
+      "pages": 8,
+      "note": "文件名2023，标题2023—2024学年，实际印刷考试日期2024年1月2日。",
+      "items": [
+        {
+          "label": "一、填空",
+          "page": 1,
+          "points": 30,
+          "prompt": "Jordan及因子；秩一特征多项式；酉矩阵及广义逆；子空间和维数；向量/矩阵范数及谱半径；矩阵指数",
+          "topics": [
+            "jordan",
+            "norms",
+            "subspace-sum",
+            "least-squares",
+            "matrix-functions"
+          ],
+          "scope": "混合：广义逆为补充，跨PDF1—2页",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 1,
+            "label": "2023 一、填空"
+          },
+          "task": "Jordan及因子；秩一特征多项式；酉矩阵及广义逆；子空间和维数；向量/矩阵范数及谱半径；矩阵指数"
+        },
+        {
+          "label": "二、判断",
+          "page": 2,
+          "points": 10,
+          "prompt": "正规与单纯；相似与谱；满秩广义逆；像核；Schur；矩阵级数；相容范数；1逆和最小二乘",
+          "topics": [
+            "jordan",
+            "image-kernel",
+            "norms",
+            "series",
+            "least-squares"
+          ],
+          "scope": "混合：广义逆及最小二乘为补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 2,
+            "label": "2023 二、判断"
+          },
+          "task": "正规与单纯；相似与谱；满秩广义逆；像核；Schur；矩阵级数；相容范数；1逆和最小二乘"
+        },
+        {
+          "label": "三1",
+          "page": 3,
+          "points": 8,
+          "prompt": "将R⁴给定基Schmidt正交化并求QR分解",
+          "topics": [
+            "gram-qr"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 3,
+            "label": "2023 三1"
+          },
+          "task": "将R⁴给定基Schmidt正交化并求QR分解"
+        },
+        {
+          "label": "三2",
+          "page": 3,
+          "points": 8,
+          "prompt": "求5×2矩阵值域的正交补",
+          "topics": [
+            "image-kernel",
+            "orthogonal-complement"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 3,
+            "label": "2023 三2"
+          },
+          "task": "求5×2矩阵值域的正交补"
+        },
+        {
+          "label": "三3",
+          "page": 4,
+          "points": 8,
+          "prompt": "对具体三阶矩阵求初等因子、不变因子、Jordan形、最小多项式",
+          "topics": [
+            "jordan"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 4,
+            "label": "2023 三3"
+          },
+          "task": "对具体三阶矩阵求初等因子、不变因子、Jordan形、最小多项式"
+        },
+        {
+          "label": "三4",
+          "page": 5,
+          "points": 8,
+          "prompt": "求多项式子空间基及指定基下变换矩阵",
+          "topics": [
+            "map-matrix"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 5,
+            "label": "2023 三4"
+          },
+          "task": "求多项式子空间基及指定基下变换矩阵"
+        },
+        {
+          "label": "三5",
+          "page": 6,
+          "points": 8,
+          "prompt": "求Ax=b的极小范数最小二乘解",
+          "topics": [
+            "least-squares"
+          ],
+          "scope": "学习通第五章/旧卷补充",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 6,
+            "label": "2023 三5"
+          },
+          "task": "求Ax=b的极小范数最小二乘解"
+        },
+        {
+          "label": "四",
+          "page": 7,
+          "points": 10,
+          "prompt": "求给定三阶矩阵的d(e^(At))/dt",
+          "topics": [
+            "matrix-functions"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 7,
+            "label": "2023 四"
+          },
+          "task": "求给定三阶矩阵的d(e^(At))/dt"
+        },
+        {
+          "label": "五",
+          "page": 8,
+          "points": 10,
+          "prompt": "由A²=A求N(A)与N(A−I)交、和的维数",
+          "topics": [
+            "idempotent",
+            "image-kernel",
+            "subspace-sum"
+          ],
+          "scope": "大纲I主线",
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 8,
+            "label": "2023 五"
+          },
+          "task": "由A²=A求N(A)与N(A−I)交、和的维数"
+        }
+      ],
+      "structureLabel": "一、填空 30分 + 二、判断 10分 + 三1 8分 + 三2 8分 + 三3 8分 + 三4 8分 + 三5 8分 + 四 10分 + 五 10分"
+    }
+  ],
+  "topics": [
+    {
+      "id": "subspace-sum",
+      "title": "子空间的和、交与维数",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 1,
+            "label": "2017 一(5)"
+          },
+          "points": null,
+          "prompt": "求两个生成子空间和的维数"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 1,
+            "label": "2020 一(4)"
+          },
+          "points": null,
+          "prompt": "求两个生成子空间交的维数"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 2,
+            "label": "2021 二(1)"
+          },
+          "points": 8,
+          "prompt": "求W₁+W₂与W₁∩W₂"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 1,
+            "label": "2023 一(5)"
+          },
+          "points": null,
+          "prompt": "求V₁+V₂维数"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 8,
+            "label": "2023 五"
+          },
+          "points": 10,
+          "prompt": "幂等矩阵的核与1特征子空间的交、和"
+        }
+      ],
+      "paperCount": 4,
+      "years": [
+        2017,
+        2020,
+        2021,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "s01",
+        "s02"
+      ],
+      "priorityReason": "起步重点。4/6卷出现；消元、基与维数可同时服务子空间计算与后续证明，先掌握可降低后面学习负担。",
+      "order": 1,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "把生成元按列组成矩阵，求和空间时并列两组生成元。",
+        "消元选原矩阵主元列，得到和空间的一组基。",
+        "求交时令两种线性组合相等，解[B₁,−B₂](u,v)ᵀ=0，再代回得到交空间向量。",
+        "检查dim(U+V)+dim(U∩V)=dimU+dimV。"
+      ],
+      "mastery": "交与和都要给基或维数；维数公式只能在已知其余量时使用。",
+      "task": "求两个子空间的和、交的基与维数。"
+    },
+    {
+      "id": "image-kernel",
+      "title": "像、核及其计算应用",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 4,
+            "label": "2017 四"
+          },
+          "points": 10,
+          "prompt": "求值域维数及核"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 4,
+            "label": "2019 二(2)"
+          },
+          "points": 8,
+          "prompt": "抽象基下线性变换的像与核"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 10,
+            "label": "2019 五"
+          },
+          "points": 10,
+          "prompt": "求齐次方程解空间"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 5,
+            "label": "2020 二(5)"
+          },
+          "points": 8,
+          "prompt": "抽象线性变换的像与核"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 3,
+            "label": "2021 二(2)"
+          },
+          "points": 8,
+          "prompt": "值域正交补转成核"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 3,
+            "label": "2023 三2"
+          },
+          "points": 8,
+          "prompt": "值域正交补转成核"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 8,
+            "label": "2023 五"
+          },
+          "points": 10,
+          "prompt": "研究N(A)、N(A−I)"
+        }
+      ],
+      "paperCount": 5,
+      "years": [
+        2017,
+        2019,
+        2020,
+        2021,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "s03",
+        "m01",
+        "m02"
+      ],
+      "priorityReason": "起步重点。5/6卷出现；核心动作是求主元列与解齐次方程，也是理解映射和正交补的基础。",
+      "order": 2,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "先明确A是m×n，核在数域n维空间、像在数域m维空间。",
+        "消元找主元列，回到原A选这些列作为像的一组基。",
+        "解Ax=0，把自由变量逐个拆出基础解系。",
+        "检查dim N(A)+rank A=n，并将核的基代回。"
+      ],
+      "mastery": "基向量尺寸正确、线性无关、张成目标空间，并满足秩零度关系。",
+      "task": "求像和核的基、维数，并在相关问题中使用齐次方程。"
+    },
+    {
+      "id": "map-matrix",
+      "title": "多项式求基与指定基下的变换矩阵",
+      "occurrences": [
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 7,
+            "label": "2021 六"
+          },
+          "points": 10,
+          "prompt": "多项式子空间求基与变换矩阵"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 5,
+            "label": "2023 三4"
+          },
+          "points": 8,
+          "prompt": "多项式子空间求基与变换矩阵"
+        }
+      ],
+      "paperCount": 2,
+      "years": [
+        2021,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "s03",
+        "m01",
+        "m02",
+        "m03"
+      ],
+      "priorityReason": "明确要求多项式求基/指定基下矩阵见于2/6卷；2019、2020的像核题也可借助矩阵表示，但不混入本题型计数。",
+      "order": 3,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "relatedOccurrences": [
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 4,
+            "label": "2019 二(2)"
+          },
+          "points": 8,
+          "prompt": "由基向量的像组装表示矩阵，进一步求像与核"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 5,
+            "label": "2020 二(5)"
+          },
+          "points": 8,
+          "prompt": "由基向量的像组装表示矩阵，进一步求像与核"
+        }
+      ],
+      "method": [
+        "按固定的标准基把多项式写成系数向量。",
+        "消元选原生成元的一组基B。",
+        "对每个bⱼ计算T(bⱼ)，再用B表示，求出坐标列。",
+        "将这些坐标列按顺序组成[T]B；用MP=P[T]B检查。"
+      ],
+      "mastery": "不能把像的标准系数直接当成指定基下坐标；先证明所选基确实张成。",
+      "task": "先给多项式子空间选基，再求变换在所选基下的矩阵。"
+    },
+    {
+      "id": "orthogonal-complement",
+      "title": "把正交补转化为齐次方程",
+      "occurrences": [
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 4,
+            "label": "2018 二(2)"
+          },
+          "points": 10,
+          "prompt": "给定内积下求生成空间正交补"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 10,
+            "label": "2019 五"
+          },
+          "points": 10,
+          "prompt": "齐次方程解空间的正交补"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 4,
+            "label": "2020 二(3)"
+          },
+          "points": 8,
+          "prompt": "生成空间正交补"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 3,
+            "label": "2021 二(2)"
+          },
+          "points": 8,
+          "prompt": "值域正交补"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 3,
+            "label": "2023 三2"
+          },
+          "points": 8,
+          "prompt": "值域正交补"
+        }
+      ],
+      "paperCount": 5,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "s04",
+        "s05",
+        "m02"
+      ],
+      "priorityReason": "优先练完整题。5/6卷出现；抓住“与每列正交”等价于解Aᴴy=0，可在基础恢复后较早开始。",
+      "order": 4,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "确认A的尺寸和外面的转置，决定答案向量分量数。",
+        "由与每列正交，列Aᴴy=0；实矩阵用Aᵀ。",
+        "消元并写自由变量通解，拆出一组基。",
+        "代回Aᴴy=0，并检查维数为m−rank A。"
+      ],
+      "mastery": "本题求基不自动要求标准正交基；只有题面要求时才进一步正交化。",
+      "task": "求生成空间或矩阵值域的正交补。"
+    },
+    {
+      "id": "gram-qr",
+      "title": "Schmidt正交化与QR分解",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 5,
+            "label": "2017 五"
+          },
+          "points": 10,
+          "prompt": "求QR分解"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 10,
+            "label": "2019 五"
+          },
+          "points": 10,
+          "prompt": "给解空间求标准正交基，再求正交补"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 2,
+            "label": "2020 二(1)"
+          },
+          "points": 8,
+          "prompt": "积分内积下正交化多项式"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 3,
+            "label": "2023 三1"
+          },
+          "points": 8,
+          "prompt": "标准正交基与QR分解"
+        }
+      ],
+      "paperCount": 4,
+      "years": [
+        2017,
+        2019,
+        2020,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "s03",
+        "s04",
+        "d02"
+      ],
+      "priorityReason": "优先练完整题。4/6卷出现；正交化步骤固定，需练投影系数、单位化及QᴴQ、QR两项检查。",
+      "order": 5,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "按列顺序作Schmidt，逐次减去沿已有正交方向的投影。",
+        "每个非零余量单位化，得到qⱼ。",
+        "以qⱼ为列组Q，用rᵢⱼ=qᵢᴴaⱼ组R。",
+        "核对QᴴQ=I与QR=A，并注明薄QR或完整QR。"
+      ],
+      "mastery": "两项矩阵等式均通过；不能把未单位化的正交向量直接组成Q。",
+      "task": "对给定向量组正交化、单位化，或进一步求QR分解。"
+    },
+    {
+      "id": "jordan",
+      "title": "初等因子、不变因子、Jordan形与最小多项式",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 2,
+            "label": "2017 二"
+          },
+          "points": 10,
+          "prompt": "等价对角阵到因子和Jordan"
+        },
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 1,
+            "label": "2018 一(2)"
+          },
+          "points": null,
+          "prompt": "等价对角阵到因子和Jordan"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 3,
+            "label": "2019 二(1)"
+          },
+          "points": 8,
+          "prompt": "因子、Smith、Jordan、最小多项式"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 3,
+            "label": "2020 二(2)"
+          },
+          "points": 8,
+          "prompt": "等价对角阵到因子和Jordan"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 3,
+            "label": "2021 二(3)"
+          },
+          "points": 8,
+          "prompt": "因子、Smith、Jordan、最小多项式"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 4,
+            "label": "2023 三3"
+          },
+          "points": 8,
+          "prompt": "具体矩阵到因子和Jordan"
+        }
+      ],
+      "paperCount": 6,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "m04",
+        "d03",
+        "d04",
+        "d06"
+      ],
+      "priorityReason": "主线重点。6/6卷出现；题目常把初等因子、不变因子、Jordan形与最小多项式一起问，须串成一套。",
+      "order": 6,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "计算λI−A与特征多项式。",
+        "用各阶子式最大公因式Δₖ求dₖ=Δₖ/Δₖ₋₁，或按题给等价标准形读不变因子。",
+        "把非单位不变因子拆为素因子幂，得到初等因子。",
+        "每个(λ−λᵢ)^s对应一个s阶Jordan块；最大不变因子为最小多项式。",
+        "检查块大小和等于n、各根幂和与特征多项式一致。"
+      ],
+      "mastery": "不仅列特征值；四种数据需相互吻合。题目要求相似变换矩阵时还需求Jordan链。",
+      "task": "把初等因子、不变因子、Jordan形、最小多项式一起求出。"
+    },
+    {
+      "id": "spectral",
+      "title": "谱分解与矩阵函数的谱表示",
+      "occurrences": [
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 6,
+            "label": "2018 二(4)"
+          },
+          "points": 10,
+          "prompt": "求二阶矩阵的谱分解"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 2,
+            "label": "2019 一(9)"
+          },
+          "points": null,
+          "prompt": "求谱分解中的谱值"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 6,
+            "label": "2020 四"
+          },
+          "points": 10,
+          "prompt": "求e^A的谱分解及谱半径"
+        }
+      ],
+      "paperCount": 3,
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "m04",
+        "d04",
+        "d05",
+        "a06"
+      ],
+      "priorityReason": "在对角化之后学习。3/6卷明确要求谱表示；还为矩阵函数提供方法，先区分普通谱投影与正交投影。",
+      "order": 7,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "先判断是否可对角化，列不同特征值λᵢ。",
+        "算谱投影Pᵢ=∏ⱼ≠ᵢ(A−λⱼI)/(λᵢ−λⱼ)。",
+        "写A=ΣλᵢPᵢ，或f(A)=Σf(λᵢ)Pᵢ。",
+        "检查ΣPᵢ=I、PᵢPⱼ=0(i≠j)与Pᵢ²=Pᵢ。"
+      ],
+      "mastery": "普通可对角化矩阵的谱投影未必是正交投影；实对称/正规情形另有正交性。",
+      "task": "求谱投影，将矩阵或矩阵函数写成谱表示。"
+    },
+    {
+      "id": "norms",
+      "title": "向量范数、矩阵范数、距离与谱半径",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 1,
+            "label": "2017 一(3)(4)"
+          },
+          "points": null,
+          "prompt": "向量1/2/∞范数及矩阵1/2/∞范数"
+        },
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 1,
+            "label": "2018 一(3)(4)、二(1)"
+          },
+          "points": null,
+          "prompt": "范数、谱半径及距离；二(1)在PDF3页"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 9,
+            "label": "2019 四"
+          },
+          "points": 10,
+          "prompt": "写定义、算距离、算矩阵2范数"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 1,
+            "label": "2020 一(5)"
+          },
+          "points": null,
+          "prompt": "矩阵2范数或变换后向量间距离"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 1,
+            "label": "2021 一(5)"
+          },
+          "points": null,
+          "prompt": "矩阵2范数/距离及A⁵谱半径"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 1,
+            "label": "2023 一(6)(7)、二(8)"
+          },
+          "points": null,
+          "prompt": "向量范数、从属1范数、谱半径、相容定义；判断在PDF2页"
+        }
+      ],
+      "paperCount": 6,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "m04",
+        "a01",
+        "a02",
+        "a03",
+        "a04"
+      ],
+      "priorityReason": "小题重点。6/6卷出现；先把向量1/2/∞范数、矩阵诱导范数与F范数分别定义清楚，再做判断。",
+      "order": 8,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "先辨认对象是向量还是矩阵，以及范数下标或定义。",
+        "向量按绝对值和/平方和开根/最大绝对值计算。",
+        "矩阵1范数取最大列绝对值和，∞范数取最大行和，2范数用AᴴA最大特征值。",
+        "F范数为元素模平方和开根；谱半径是特征值模最大值，不能混同。"
+      ],
+      "mastery": "能从定义计算，并用反例区分F范数、诱导2范数和谱半径。",
+      "task": "计算范数与距离、区分范数和谱半径，判断相关性质。"
+    },
+    {
+      "id": "gershgorin",
+      "title": "盖尔圆定位、隔离与画图",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 3,
+            "label": "2017 三"
+          },
+          "points": 10,
+          "prompt": "隔离三阶矩阵特征值"
+        },
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 5,
+            "label": "2018 二(3)"
+          },
+          "points": 10,
+          "prompt": "隔离四阶矩阵特征值"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 5,
+            "label": "2019 二(3)"
+          },
+          "points": 8,
+          "prompt": "隔离并用实矩阵性质改进结果"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 4,
+            "label": "2020 二(4)"
+          },
+          "points": 8,
+          "prompt": "隔离四阶矩阵特征值"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 4,
+            "label": "2021 二(4)"
+          },
+          "points": 8,
+          "prompt": "隔离四阶矩阵特征值"
+        }
+      ],
+      "paperCount": 5,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "m04",
+        "a04"
+      ],
+      "priorityReason": "主线重点。5/6卷出现且多为独立计算题；写圆盘覆盖谱之后，还必须说明隔离与计数，2023未出现。",
+      "order": 9,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "对角元为圆心，同一行其余元素模之和为半径。",
+        "画复平面圆盘，先说明谱包含于圆盘并集。",
+        "检查连通分支；孤立k个圆组成的分支含k个特征值，按代数重数。",
+        "隔离不足时尝试对角相似缩放，再重新计算所有半径和间距。"
+      ],
+      "mastery": "题面要求隔离时，只有覆盖结论不够；画图标出圆心、半径与计数依据。",
+      "task": "画圆盘、隔离特征值并说明每个分离区域的计数。"
+    },
+    {
+      "id": "series",
+      "title": "矩阵级数敛散及几何级数恒等式",
+      "occurrences": [
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 2,
+            "label": "2018 一(8)"
+          },
+          "points": null,
+          "prompt": "判断带系数幂级数收敛"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 2,
+            "label": "2023 二(6)(7)"
+          },
+          "points": 2,
+          "prompt": "几何级数恒等式及带系数矩阵级数"
+        }
+      ],
+      "paperCount": 2,
+      "years": [
+        2018,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "m04",
+        "a02",
+        "a03",
+        "a04",
+        "a05"
+      ],
+      "priorityReason": "主线中需保留。2/6卷明确出现；矩阵几何级数是谱半径与矩阵函数的桥梁，不能只背标量公式。",
+      "order": 10,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "先辨认一般矩阵级数还是几何级数。",
+        "几何级数ΣAᵏ当且仅当ρ(A)<1时收敛；相容范数小于1仅是充分条件。",
+        "利用有限和(I−A)Σₖ₌₀ᴺAᵏ=I−Aᴺ⁺¹取极限。",
+        "最后给出(I−A)⁻¹或按题面证明要求写清余项趋零。"
+      ],
+      "mastery": "ρ(A)<1的条件不能丢；ρ=1时不能用“可能收敛”混过矩阵几何级数判定。",
+      "task": "判断矩阵级数敛散，使用并证明几何级数恒等式。"
+    },
+    {
+      "id": "matrix-functions",
+      "title": "矩阵指数、矩阵函数及应用",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 7,
+            "label": "2017 七"
+          },
+          "points": 15,
+          "prompt": "e^(At)与微分方程初值解"
+        },
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 8,
+            "label": "2018 五"
+          },
+          "points": 15,
+          "prompt": "e^(At)与微分方程初值解"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 7,
+            "label": "2019 二(5)"
+          },
+          "points": 8,
+          "prompt": "线性常系数微分方程通解"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 6,
+            "label": "2020 四、六"
+          },
+          "points": null,
+          "prompt": "e^A谱分解；e^(At)与初值解，六在PDF8页"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 6,
+            "label": "2021 五"
+          },
+          "points": 10,
+          "prompt": "基础解系与初值解"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 7,
+            "label": "2023 四"
+          },
+          "points": 10,
+          "prompt": "d(e^(At))/dt"
+        }
+      ],
+      "paperCount": 6,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023
+      ],
+      "scope": "大纲主线 + 应用扩展",
+      "lessonIds": [
+        "m04",
+        "d03",
+        "d04",
+        "d05",
+        "d06",
+        "a04",
+        "a05",
+        "a06"
+      ],
+      "priorityReason": "综合重点。6/6卷涉及矩阵函数或相关应用；先会算e^(tA)，再看微分方程扩展，勿把二者范围混同。",
+      "order": 11,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "先查有无A²=cA或幂零等简化关系。",
+        "可对角化时用Pf(Λ)P⁻¹；否则在Jordan块上使用导数项。",
+        "指数导数对常矩阵A是Ae^(tA)，注意乘上A。",
+        "代回t=0、导数恒等式或满足的多项式关系检查。"
+      ],
+      "mastery": "能完整算矩阵函数与导数；微分方程应用还需单独学习初值和非齐次项处理。",
+      "task": "计算矩阵指数或函数，求导；部分旧卷进一步问微分方程。"
+    },
+    {
+      "id": "full-rank",
+      "title": "矩阵的满秩分解",
+      "occurrences": [
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 2,
+            "label": "2020 一(8)、五(1)"
+          },
+          "points": null,
+          "prompt": "块矩阵满秩分解；具体矩阵分解在PDF7页"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 5,
+            "label": "2021 二(5)"
+          },
+          "points": 8,
+          "prompt": "求四阶矩阵满秩分解"
+        }
+      ],
+      "paperCount": 2,
+      "years": [
+        2020,
+        2021
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "d01"
+      ],
+      "priorityReason": "主线基础分解。2/6卷明确要求满秩分解；同时支持广义逆计算，但隐含用到它的题不重复计为明确考题。",
+      "order": 12,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "消元找r个主元列，回原矩阵组成m×r矩阵B。",
+        "逐列解Bcⱼ=aⱼ，把系数列组成r×n矩阵C。",
+        "写A=BC并核对乘积。",
+        "确认rank B=rank C=r。"
+      ],
+      "mastery": "因子尺寸、秩和乘积三项正确；不能直接用行最简形代替原A。",
+      "task": "将矩阵写成一个满列秩因子与一个满行秩因子的乘积。"
+    },
+    {
+      "id": "least-squares",
+      "title": "广义逆与极小范数最小二乘解",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 6,
+            "label": "2017 六"
+          },
+          "points": 15,
+          "prompt": "不相容方程最小二乘解通解"
+        },
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 7,
+            "label": "2018 四"
+          },
+          "points": 15,
+          "prompt": "相容性与极小范数最小二乘解"
+        },
+        {
+          "year": 2019,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+            "page": 6,
+            "label": "2019 二(4)、三"
+          },
+          "points": null,
+          "prompt": "由A⁺求A；最小二乘题在PDF8页"
+        },
+        {
+          "year": 2020,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+            "page": 7,
+            "label": "2020 五"
+          },
+          "points": 10,
+          "prompt": "满秩分解、A⁺、相容性、解"
+        },
+        {
+          "year": 2021,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+            "page": 5,
+            "label": "2021 四"
+          },
+          "points": 10,
+          "prompt": "极小范数最小二乘解"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 6,
+            "label": "2023 三5"
+          },
+          "points": 8,
+          "prompt": "极小范数最小二乘解"
+        }
+      ],
+      "paperCount": 6,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023
+      ],
+      "scope": "旧卷 / 学习通补充",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "s04",
+        "d01",
+        "e03",
+        "e04",
+        "e05"
+      ],
+      "priorityReason": "范围待区分。6/6旧卷出现且学习通有第五章任务；本学期I大纲未单列，单列补充路线，不能据此推定今年必考。",
+      "order": 13,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "先区分“精确解”“最小残差”“所有最小二乘解中最小长度”。",
+        "按满秩分解或SVD求A⁺，先检查适用条件。",
+        "极小范数最小二乘解为x*=A⁺b。",
+        "若问所有最小二乘解，再加(I−A⁺A)z，并检查Aᴴ(Ax*−b)=0。"
+      ],
+      "mastery": "一般解与极小范数解不可混写；列不满秩不能硬用(AᴴA)⁻¹Aᴴ。",
+      "task": "求广义逆，区分精确解、最小二乘解与极小范数解。"
+    },
+    {
+      "id": "idempotent",
+      "title": "幂等矩阵的性质与空间证明",
+      "occurrences": [
+        {
+          "year": 2018,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2018年试题.pdf",
+            "page": 1,
+            "label": "2018 一(1)"
+          },
+          "points": null,
+          "prompt": "由A²=A、阶数和迹判断相似对角阵"
+        },
+        {
+          "year": 2023,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+            "page": 8,
+            "label": "2023 五"
+          },
+          "points": 10,
+          "prompt": "证明N(A)与N(A−I)互补"
+        }
+      ],
+      "paperCount": 2,
+      "years": [
+        2018,
+        2023
+      ],
+      "scope": "本学期大纲主线",
+      "lessonIds": [
+        "s01",
+        "s02",
+        "s05",
+        "m01",
+        "m02",
+        "m04"
+      ],
+      "priorityReason": "定义与证明训练。2/6卷出现；2023有10分证明，需从A²=A构造分解，不能只背数值计算。",
+      "order": 14,
+      "readiness": "所列课程共同覆盖整题；单独消元/特征值等基础课只提供工具，不代表已会整题。",
+      "method": [
+        "从A²=A出发解释N(A)和N(A−I)的条件。",
+        "求交时同时使用Ax=0与Ax=x，推出x=0。",
+        "任意x构造x=(x−Ax)+Ax，分别核验两项归属。",
+        "证明和覆盖全空间，再给直和与维数结论。"
+      ],
+      "mastery": "分解、归属与双向包含写齐；A²=A不意味着Aᴴ=A或正交投影。",
+      "task": "由幂等条件研究矩阵性质或构造子空间的直和证明。"
+    },
+    {
+      "id": "matrix-equation",
+      "title": "矩阵方程AX+XB=C（旧卷补充）",
+      "occurrences": [
+        {
+          "year": 2017,
+          "ref": {
+            "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+            "page": 8,
+            "label": "2017 八"
+          },
+          "points": 10,
+          "prompt": "求给定二阶矩阵方程AX+XB=C"
+        }
+      ],
+      "paperCount": 1,
+      "years": [
+        2017
+      ],
+      "scope": "旧卷 / 学习通补充",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "e06"
+      ],
+      "priorityReason": "旧卷扩展任务。用于学习通相关补充与旧卷选练，先完成主线；逐元素法和向量化法要分清条件。",
+      "order": 15,
+      "readiness": "先能解普通线性方程组，再学向量化与Kronecker积。",
+      "method": [
+        "先查题型是AXB=D还是AX+XB=C，确认尺寸。",
+        "小尺寸可直接给X的元素设未知数，转化线性方程组。",
+        "使用向量化时按列vec，分别套用(Bᵀ⊗A)vec X或(I⊗A+Bᵀ⊗I)vec X。",
+        "检查相容性与自由参数，最后代回原矩阵方程。"
+      ],
+      "mastery": "矩阵乘法次序不能交换；一解、全部解和唯一可解条件要按题问区分。",
+      "task": "解加法型矩阵方程AX+XB=C；与乘积型方程分开处理。"
+    }
+  ],
+  "keyFindings": [
+    "Jordan相关任务、范数、矩阵函数、广义逆/最小二乘在6份样本均出现；最后一项当前大纲I未单列，不能按旧卷频次自动认定本学期期末范围。",
+    "盖尔圆在2017—2021五份出现，但2023卷未出现；高频不等于必考。",
+    "2023卷新设10分判断与10分幂等空间题；需会定义、反例、证明，不能只背计算模板。",
+    "2023卷完整100分中，明确广义逆/最小二乘的计算题三5占8分；填空和判断还混有广义逆，未拆分总占比。",
+    "各卷计算/综合题总量60—80分（2023为60分，另有10分判断），定义常穿插填空和判断；按题型练习仍要先学清概念条件。"
+  ],
+  "workedPast": [
+    {
+      "id": "past-2023-iii1",
+      "topic": "gram-qr",
+      "title": "2023 三1：标准正交基与QR",
+      "ref": {
+        "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+        "page": 3,
+        "label": "2023 三1"
+      },
+      "points": 8,
+      "prompt": "在 $\\mathbb R^4$ 中给定一组基 $x_1=(1,1,0,0)^T,\\ x_2=(1,0,1,0)^T,\\ x_3=(-1,0,0,1)^T,\\ x_4=(1,-1,-1,1)^T$。将其化为一组标准正交基，并求 $A=(x_1,x_2,x_3,x_4)$ 的 QR 分解。",
+      "steps": [
+        "先明确要交什么：需要输出四个两两正交且长度为1的向量 $q_i$，再写 $Q=(q_1,q_2,q_3,q_4)$、上三角矩阵 $R$，满足 $A=QR$。题目是实内积，投影系数用 $q_j^Tx_i$。",
+        "从第一列开始：$u_1=x_1$，$\\|u_1\\|=\\sqrt2$，所以 $q_1=(1,1,0,0)^T/\\sqrt2$。第二列减去沿 $q_1$ 的投影：$u_2=x_2-(q_1^Tx_2)q_1=(1/2,-1/2,1,0)^T$，故 $q_2=(1,-1,2,0)^T/\\sqrt6$。",
+        "第三、四列逐次减投影：$u_3=x_3-(q_1^Tx_3)q_1-(q_2^Tx_3)q_2=(-1/3,1/3,1/3,1)^T$，其长度为 $2/\\sqrt3$，因此 $q_3=(-1,1,1,3)^T/(2\\sqrt3)$。检查 $x_4$ 与前三个 $q_j$ 的内积都为0，且 $\\|x_4\\|=2$，所以 $q_4=(1,-1,-1,1)^T/2$。",
+        "用内积填写R：$r_{ij}=q_i^Tx_j$（$i\\le j$），对角线取正。逐列得到 $$R=\\begin{pmatrix}\\sqrt2&1/\\sqrt2&-1/\\sqrt2&0\\\\0&\\sqrt6/2&-1/\\sqrt6&0\\\\0&0&2/\\sqrt3&0\\\\0&0&0&2\\end{pmatrix}.$$"
+      ],
+      "result": "$Q=\\left(\\frac{(1,1,0,0)^T}{\\sqrt2},\\frac{(1,-1,2,0)^T}{\\sqrt6},\\frac{(-1,1,1,3)^T}{2\\sqrt3},\\frac{(1,-1,-1,1)^T}{2}\\right)$，与上式 $R$ 构成所求 QR。",
+      "check": "逐项验证 $Q^TQ=I_4$ 与 $QR=A$。仅有正交向量、忘记单位化，不能称为标准正交基。",
+      "lessonIds": [
+        "b01",
+        "s03",
+        "s04",
+        "d02"
+      ],
+      "toolsOnly": [
+        "b01",
+        "s03"
+      ],
+      "readiness": "完成全部所列课程并能独立完成随堂题后，再独立做这道整题。只学先修中的一节，并不等于会整题。",
+      "traps": [
+        "减投影时要对所有已经求出的正交方向都减一次。",
+        "若改变某个q的符号，R相应行也要变号。"
+      ],
+      "answerNote": "依据可见原题独立推导；非教师发布的官方解析。计算题用SymPy做代数复核，证明题逐步核对逻辑。",
+      "topicId": "gram-qr"
+    },
+    {
+      "id": "past-2023-iii2",
+      "topic": "orthogonal-complement",
+      "title": "2023 三2：值域的正交补",
+      "ref": {
+        "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+        "page": 3,
+        "label": "2023 三2"
+      },
+      "points": 8,
+      "prompt": "设 $$A=\\begin{pmatrix}2&1&-1&1&-3\\\\1&1&-1&0&1\\end{pmatrix}^{T}.$$ 求 $A$ 的值域的正交补 $R(A)^\\perp$。",
+      "steps": [
+        "先确定维数，防止转置弄反：括号外有转置，所以 $A$ 是 $5\\times2$ 矩阵，$R(A)\\subseteq\\mathbb R^5$，答案中的向量必须有5个分量。",
+        "把几何条件写成方程：向量 $y\\in R(A)^\\perp$ 等价于它与 $A$ 每列都正交，也就是 $A^Ty=0$。因此解 $$\\begin{cases}2y_1+y_2-y_3+y_4-3y_5=0,\\\\y_1+y_2-y_3+y_5=0.\\end{cases}$$",
+        "消元并选自由变量：行最简形为 $$\\begin{pmatrix}1&0&0&1&-4\\\\0&1&-1&-1&5\\end{pmatrix}.$$ 取 $y_3=s,y_4=t,y_5=u$，则 $y_1=-t+4u,\\ y_2=s+t-5u$。",
+        "按参数拆出一组基：$$y=s(0,1,1,0,0)^T+t(-1,1,0,1,0)^T+u(4,-5,0,0,1)^T.$$ 三个自由变量分别取1，其余取0，得到三个基向量。"
+      ],
+      "result": "$R(A)^\\perp=\\operatorname{span}\\{(0,1,1,0,0)^T,(-1,1,0,1,0)^T,(4,-5,0,0,1)^T\\}$，维数为3。",
+      "check": "三个向量分别代入 $A^Ty=0$ 均成立；自由变量位置构成单位阵，故线性无关。另 $\\operatorname{rank}A=2$，应有 $\\dim R(A)^\\perp=5-2=3$。",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "s04",
+        "s05",
+        "m02"
+      ],
+      "toolsOnly": [
+        "b01",
+        "b02"
+      ],
+      "readiness": "完成全部所列课程并能独立完成随堂题后，再独立做这道整题。只学先修中的一节，并不等于会整题。",
+      "traps": [
+        "这里解Aᵀy=0，不能直接解Ay=0。",
+        "只求基，题目没有要求把基再正交化。"
+      ],
+      "answerNote": "依据可见原题独立推导；非教师发布的官方解析。计算题用SymPy做代数复核，证明题逐步核对逻辑。",
+      "topicId": "orthogonal-complement"
+    },
+    {
+      "id": "past-2023-iii3",
+      "topic": "jordan",
+      "title": "2023 三3：四种标准数据的一次串联",
+      "ref": {
+        "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+        "page": 4,
+        "label": "2023 三3"
+      },
+      "points": 8,
+      "prompt": "设 $$A=\\begin{pmatrix}-1&1&0\\\\-4&3&0\\\\1&0&2\\end{pmatrix}.$$ 求 $\\lambda I-A$ 的初等因子、不变因子；写出 $A$ 的 Jordan 标准形及最小多项式。",
+      "steps": [
+        "先写λ矩阵：$$M(\\lambda)=\\lambda I-A=\\begin{pmatrix}\\lambda+1&-1&0\\\\4&\\lambda-3&0\\\\-1&0&\\lambda-2\\end{pmatrix}.$$ 其行列式为 $(\\lambda-2)[(\\lambda+1)(\\lambda-3)+4]=(\\lambda-1)^2(\\lambda-2)$。",
+        "用低阶子式找不变因子：记 $\\Delta_k$ 为所有 $k$ 阶子式的首一最大公因式。因为矩阵中有常数 $-1$，$\\Delta_1=1$。取第1、3行和第1、2列的子式：$\\det\\begin{pmatrix}\\lambda+1&-1\\\\-1&0\\end{pmatrix}=-1$，所以 $\\Delta_2=1$。而 $\\Delta_3=(\\lambda-1)^2(\\lambda-2)$。",
+        "从不变因子读初等因子：$d_1=\\Delta_1=1$，$d_2=\\Delta_2/\\Delta_1=1$，$d_3=\\Delta_3/\\Delta_2=(\\lambda-1)^2(\\lambda-2)$。把非单位不变因子按不同根拆成幂：初等因子为 $(\\lambda-1)^2$ 与 $(\\lambda-2)$。",
+        "把每个幂翻译成Jordan块：$(\\lambda-1)^2$ 对应 $J_2(1)$，$\\lambda-2$ 对应 $J_1(2)$。故 $$J=\\begin{pmatrix}1&1&0\\\\0&1&0\\\\0&0&2\\end{pmatrix}.$$ 最大不变因子就是最小多项式。"
+      ],
+      "result": "不变因子：$1,1,(\\lambda-1)^2(\\lambda-2)$；初等因子：$(\\lambda-1)^2,\\lambda-2$；$J=J_2(1)\\oplus[2]$；$m_A(\\lambda)=(\\lambda-1)^2(\\lambda-2)$。",
+      "check": "块大小总和2+1=3，最小多项式整除特征多项式且同根。独立计算得 $\\dim N(A-I)=1$，所以特征值1只能有一个Jordan块，不能误写成两个1阶块。",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "m04",
+        "d03",
+        "d04",
+        "d06"
+      ],
+      "toolsOnly": [
+        "b01",
+        "b02"
+      ],
+      "readiness": "完成全部所列课程并能独立完成随堂题后，再独立做这道整题。只学先修中的一节，并不等于会整题。",
+      "traps": [
+        "特征多项式出现平方不自动说明有二阶Jordan块；还要看不变因子/核维数。",
+        "初等因子通常不列单位因子1，不变因子则需补足矩阵阶数。"
+      ],
+      "answerNote": "依据可见原题独立推导；非教师发布的官方解析。计算题用SymPy做代数复核，证明题逐步核对逻辑。",
+      "topicId": "jordan"
+    },
+    {
+      "id": "past-2023-iii4",
+      "topic": "map-matrix",
+      "title": "2023 三4：多项式求基与基下矩阵",
+      "ref": {
+        "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+        "page": 5,
+        "label": "2023 三4"
+      },
+      "points": 8,
+      "prompt": "在次数不超过3的多项式空间 $P_3[t]$ 中，$W=\\operatorname{span}\\{f_1,f_2,f_3,f_4\\}$，其中 $f_1=1+t^3,f_2=t+t^2,f_3=1+t^2,f_4=t+t^3$。先求 $W$ 一组基。对 $f(t)=a_0+a_1t+a_2t^2+a_3t^3$ 定义 $$T[f]=(a_0+a_1-a_2-a_3)+a_1t+(a_2-a_3)t^2+(a_0+2a_1-2a_2)t^3.$$ 求 $T$ 在所求基下的矩阵。",
+      "steps": [
+        "把多项式变成系数向量：以 $(1,t,t^2,t^3)$ 为坐标顺序，把四个生成元作为列：$$C=\\begin{pmatrix}1&0&1&0\\\\0&1&0&1\\\\0&1&1&0\\\\1&0&0&1\\end{pmatrix}\\longrightarrow\\begin{pmatrix}1&0&0&1\\\\0&1&0&1\\\\0&0&1&-1\\\\0&0&0&0\\end{pmatrix}.$$ 主元在原矩阵第1、2、3列，所以可取 $\\mathcal B=(f_1,f_2,f_3)$。",
+        "解释为什么这三个足够：$f_4=f_1+f_2-f_3$，所以第四个不增加新方向。前三个线性无关：若 $af_1+bf_2+cf_3=0$，比较 $t^3,t,t^2$ 系数依次得 $a=b=c=0$。故 $\\dim W=3$。",
+        "分别代入T，不能直接抄系数矩阵：对 $f_1$ 代入系数 $(1,0,0,1)$，得 $T(f_1)=-t^2+t^3=f_1-f_3$。对 $f_2$ 代入 $(0,1,1,0)$，得 $T(f_2)=t+t^2=f_2$。对 $f_3$ 代入 $(1,0,1,0)$，得 $T(f_3)=t^2-t^3=-f_1+f_3$。三者都在 $W$ 中，也核实了限制在 $W$ 上的变换确实闭合。",
+        "把三个像的坐标按列排：$[T(f_1)]_{\\mathcal B}=(1,0,-1)^T$，$[T(f_2)]_{\\mathcal B}=(0,1,0)^T$，$[T(f_3)]_{\\mathcal B}=(-1,0,1)^T$。因此每列对应一个基向量的像。"
+      ],
+      "result": "$\\mathcal B=(1+t^3,t+t^2,1+t^2)$，$$[T]_{\\mathcal B}=\\begin{pmatrix}1&0&-1\\\\0&1&0\\\\-1&0&1\\end{pmatrix}.$$",
+      "check": "令 $P$ 为前三个系数列，令 $M$ 为 $T$ 在标准多项式基下的4×4矩阵，代数复核 $MP=P[T]_{\\mathcal B}$。换一组合法基时矩阵可以不同，需与自己选的基匹配。",
+      "lessonIds": [
+        "b01",
+        "b02",
+        "s03",
+        "m01",
+        "m02",
+        "m03"
+      ],
+      "toolsOnly": [
+        "b01",
+        "b02"
+      ],
+      "readiness": "完成全部所列课程并能独立完成随堂题后，再独立做这道整题。只学先修中的一节，并不等于会整题。",
+      "traps": [
+        "行化简后应选原生成元的主元列，不能把化简后的列直接当原多项式。",
+        "T(f_i)的标准系数不是本题基下的坐标；必须再用f₁,f₂,f₃表达。"
+      ],
+      "answerNote": "依据可见原题独立推导；非教师发布的官方解析。计算题用SymPy做代数复核，证明题逐步核对逻辑。",
+      "topicId": "map-matrix"
+    },
+    {
+      "id": "past-2023-v",
+      "topic": "idempotent",
+      "title": "2023 五：幂等矩阵与互补子空间",
+      "ref": {
+        "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+        "page": 8,
+        "label": "2023 五"
+      },
+      "points": 10,
+      "prompt": "设 $A\\in\\mathbb C^{n\\times n}$ 满足 $A^2=A$，令 $V_1=\\{X\\in\\mathbb C^n\\mid AX=0\\}$，$V_2=\\{X\\in\\mathbb C^n\\mid(A-I)X=0\\}$。求 $V_1\\cap V_2$ 及 $V_1+V_2$ 的维数。",
+      "steps": [
+        "先按定义理解两个空间：$V_1=N(A)$：被 $A$ 变成零的向量。$V_2=N(A-I)$：被 $A$ 保持不变的向量，即 $AX=X$。不需要先计算某个具体矩阵的秩。",
+        "求交：同时满足两条件：若 $X\\in V_1\\cap V_2$，则同时 $AX=0$ 与 $AX=X$，所以 $X=0$。反过来零向量显然在交中。因此 $V_1\\cap V_2=\\{0\\}$，维数0。",
+        "求和：对任意向量构造分解：任取 $X\\in\\mathbb C^n$，写成 $$X=(X-AX)+AX.$$ 利用 $A^2=A$：$A(X-AX)=AX-A^2X=0$，故 $X-AX\\in V_1$；而 $(A-I)AX=A^2X-AX=0$，故 $AX\\in V_2$。所以整个 $\\mathbb C^n$ 都包含于 $V_1+V_2$。",
+        "收束成维数结论：原本 $V_1,V_2\\subseteq\\mathbb C^n$，故其和不超出 $\\mathbb C^n$，结合上一步知 $V_1+V_2=\\mathbb C^n$。交为0又说明这是直和：$\\mathbb C^n=N(A)\\oplus N(A-I)$。"
+      ],
+      "result": "$\\dim(V_1\\cap V_2)=0$，$\\dim(V_1+V_2)=n$。",
+      "check": "若 $r=\\operatorname{rank}A$，则 $V_2=R(A)$（由幂等性双向包含），$\\dim V_1=n-r$、$\\dim V_2=r$，维数公式再次给出0和n。这里是代数直和，A未必是正交投影。",
+      "lessonIds": [
+        "s01",
+        "s02",
+        "s05",
+        "m01",
+        "m02",
+        "m04"
+      ],
+      "toolsOnly": [
+        "s01",
+        "s02"
+      ],
+      "readiness": "完成全部所列课程并能独立完成随堂题后，再独立做这道整题。只学先修中的一节，并不等于会整题。",
+      "traps": [
+        "A²=A不能自动推出Aᴴ=A，不要擅自说两个空间正交。",
+        "仅写维数公式还不够，需要先证明交为0、和覆盖整个空间。"
+      ],
+      "answerNote": "依据可见原题独立推导；非教师发布的官方解析。计算题用SymPy做代数复核，证明题逐步核对逻辑。",
+      "topicId": "idempotent"
+    },
+    {
+      "id": "past-2023-iv",
+      "topic": "matrix-functions",
+      "title": "2023 四：利用A²=2A求矩阵指数导数",
+      "ref": {
+        "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+        "page": 7,
+        "label": "2023 四"
+      },
+      "points": 10,
+      "prompt": "已知 $$A=\\begin{pmatrix}1&0&-1\\\\1&2&1\\\\-1&0&1\\end{pmatrix},$$ 求 $\\dfrac{d e^{At}}{dt}$。",
+      "steps": [
+        "先算A²，找简化关系：直接相乘得 $$A^2=\\begin{pmatrix}2&0&-2\\\\2&4&2\\\\-2&0&2\\end{pmatrix}=2A.$$ 因而对 $k\\ge1$，$A^k=2^{k-1}A$。",
+        "代入矩阵指数定义：$$e^{At}=I+\\sum_{k=1}^{\\infty}\\frac{t^kA^k}{k!}=I+\\frac A2\\sum_{k=1}^{\\infty}\\frac{(2t)^k}{k!}=I+\\frac{e^{2t}-1}{2}A.$$ 指数级数对所有实数t收敛。",
+        "求导并代回原矩阵：由上式逐项求导，$\\dfrac{de^{At}}{dt}=e^{2t}A$，因此直接乘回题给矩阵即可。也可先用恒等式 $\\frac d{dt}e^{At}=Ae^{At}$ 再用 $A^2=2A$ 化简。"
+      ],
+      "result": "$$\\frac{de^{At}}{dt}=e^{2t}\\begin{pmatrix}1&0&-1\\\\1&2&1\\\\-1&0&1\\end{pmatrix}.$$",
+      "check": "在 $t=0$ 处结果为A，与导数定义相符；并验证 $Ae^{At}=A+(e^{2t}-1)A=e^{2t}A$。最小多项式是 $\\lambda(\\lambda-2)$，不能因特征多项式中 $(\\lambda-2)^2$ 就误认为有二阶Jordan块。",
+      "lessonIds": [
+        "m04",
+        "d03",
+        "d04",
+        "a05",
+        "a06"
+      ],
+      "toolsOnly": [
+        "m04",
+        "d03"
+      ],
+      "readiness": "完成全部所列课程并能独立完成随堂题后，再独立做这道整题。只学先修中的一节，并不等于会整题。",
+      "traps": [
+        "标量t是变量、A是常矩阵，不能漏乘A。",
+        "本题A可对角化，先检查A²可省去繁重Jordan计算。"
+      ],
+      "answerNote": "依据可见原题独立推导；非教师发布的官方解析。计算题用SymPy做代数复核，证明题逐步核对逻辑。",
+      "topicId": "matrix-functions"
+    },
+    {
+      "id": "past-2017-iii",
+      "topic": "gershgorin",
+      "title": "2017 三：相似缩放后隔离盖尔圆",
+      "ref": {
+        "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+        "page": 3,
+        "label": "2017 三"
+      },
+      "points": 10,
+      "prompt": "由盖尔圆定理隔离 $$A=\\begin{pmatrix}2&2&-1\\\\1&10&-1\\\\8&2&20\\end{pmatrix}$$ 的特征值，要求画图表示。",
+      "steps": [
+        "先画原矩阵的行盖尔圆：中心为对角元，半径为同一行非对角元绝对值之和：$|z-2|\\le3$，$|z-10|\\le2$，$|z-20|\\le10$。第三个圆与前面的圆有接触或重叠，不能直接声称每圆一个特征值。",
+        "用对角相似缩放改善：取 $D=\\operatorname{diag}(1,1,2)$，计算 $$B=D^{-1}AD=\\begin{pmatrix}2&2&-2\\\\1&10&-2\\\\4&1&20\\end{pmatrix}.$$ 相似不改变特征值。B的行圆为 $|z-2|\\le4$，$|z-10|\\le3$，$|z-20|\\le5$。",
+        "检查圆是否真正分离：三个圆心间距离分别8、10、18；对应半径之和7、8、9，都严格小于圆心距离。因此三圆两两不交。由盖尔圆的连通分支计数结论，每个孤立圆都恰好含1个特征值（按代数重数计）。",
+        "画图时把数据写全：在复平面实轴上标中心2、10、20，分别画半径4、3、5的圆盘，并在每圆标“1个特征值”。A为实矩阵，各圆关于实轴对称；每圆只含一个特征值，所以非实共轭对不可能落在同一个孤立圆中，这三个特征值均为实数。"
+      ],
+      "result": "可用三个互不相交的圆盘 $|z-2|\\le4,\\ |z-10|\\le3,\\ |z-20|\\le5$ 分别隔离三个特征值；进一步它们均为互异实数。",
+      "check": "直接计算D⁻¹AD核实缩放方向。隔离区域不唯一，原参考解使用其他缩放也可以；这里给的是独立可验证的一组。",
+      "lessonIds": [
+        "m04",
+        "a04"
+      ],
+      "toolsOnly": [
+        "m04",
+        "a04"
+      ],
+      "readiness": "完成全部所列课程并能独立完成随堂题后，再独立做这道整题。只学先修中的一节，并不等于会整题。",
+      "traps": [
+        "画出覆盖谱的圆盘不等于已经隔离；必须说明连通分支各含几个特征值。",
+        "DAD⁻¹与D⁻¹AD半径不同，必须按自己实际算出的矩阵作图。"
+      ],
+      "answerNote": "依据可见原题独立推导；非教师发布的官方解析。计算题用SymPy做代数复核，证明题逐步核对逻辑。",
+      "topicId": "gershgorin"
+    }
+  ],
+  "notes": [
+    "没有明确年份的试题1—8不纳入频次；同一份卷的答案版不作为额外一份卷。",
+    "同一主题在同一份卷出现多次，只计这一份卷。像核题包含直接求像核及把正交补转为核的计算应用；各行考点允许交叠，分值不可相加。",
+    "部分小题包含多空或跨主题，无法可靠拆分分值时不标单独分值；未标分值不表示零分。逐卷结构保留卷面大题分值。",
+    "所有定位使用从1开始的PDF文件页序，可能与试卷印刷页码不同。",
+    "试卷PDF的隐藏文本层含答案和错序内容；题面按可见页面核对，精讲解析独立推导。",
+    "2019、2020的像核题可使用指定基下的矩阵表示，但题面没有明确要求输出该矩阵，故不计入“多项式求基/变换矩阵”出现卷数，只列关联题。",
+    "Jordan相关任务、范数、矩阵函数、广义逆/最小二乘在6份样本均出现；最后一项当前大纲I未单列，不能按旧卷频次自动认定本学期期末范围。",
+    "盖尔圆在2017—2021五份出现，但2023卷未出现；高频不等于必考。",
+    "2023卷新设10分判断与10分幂等空间题；需会定义、反例、证明，不能只背计算模板。",
+    "2023卷完整100分中，明确广义逆/最小二乘的计算题三5占8分；填空和判断还混有广义逆，未拆分总占比。",
+    "各卷计算/综合题总量60—80分（2023为60分，另有10分判断），定义常穿插填空和判断；按题型练习仍要先学清概念条件。"
+  ],
+  "priorities": [
+    {
+      "level": "先恢复",
+      "title": "消元 → 基与维数 → 像与核",
+      "reason": "这组工具能支持子空间、正交补和指定基下矩阵。先从能算的小题恢复，不先啃Jordan。",
+      "topicId": "image-kernel"
+    },
+    {
+      "level": "先练整题",
+      "title": "正交补与 Schmidt / QR",
+      "reason": "分别见于5/6、4/6卷。把几何条件转成方程，或按投影步骤计算，较早形成整题能力。",
+      "topicId": "gram-qr"
+    },
+    {
+      "level": "主线重点",
+      "title": "Jordan / 最小多项式 / 矩阵函数",
+      "reason": "相关任务均见于6/6卷。先补特征值，再把块、因子、多项式与函数连起来。",
+      "topicId": "jordan"
+    },
+    {
+      "level": "小题与计算",
+      "title": "范数、谱半径与盖尔圆",
+      "reason": "范数见于6/6卷，盖尔圆见于5/6卷。定义和条件决定能否答对判断、填空及隔离题。",
+      "topicId": "norms"
+    },
+    {
+      "level": "证明训练",
+      "title": "子空间与幂等矩阵",
+      "reason": "2023五为10分证明。需要会按定义构造与验证，课程中单独安排这类动作。",
+      "topicId": "idempotent"
+    },
+    {
+      "level": "补充",
+      "title": "广义逆与最小二乘",
+      "reason": "旧卷6/6且学习通有任务，但当前I大纲未单列。保留课程与练习，单独注明范围。",
+      "topicId": "least-squares"
+    }
+  ],
+  "lessonLinks": {
+    "b01": [
+      {
+        "topicId": "orthogonal-complement",
+        "role": "prerequisite",
+        "label": "2023 三2 · 把正交补转化为齐次方程",
+        "task": "消元求全部解",
+        "boundary": "先会解齐次方程；还需 s04、m02 理解并建立正交条件。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 3,
+          "label": "2023 三2"
+        }
+      }
+    ],
+    "b02": [
+      {
+        "topicId": "full-rank",
+        "role": "prerequisite",
+        "label": "2021 二(5) · 矩阵的满秩分解",
+        "task": "辨认主元列和列秩",
+        "boundary": "本节只负责选独立列；因子构造与验证在 d01。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+          "page": 5,
+          "label": "2021 二(5)"
+        }
+      }
+    ],
+    "s01": [
+      {
+        "topicId": "subspace-sum",
+        "role": "prerequisite",
+        "label": "2023 五 · 子空间的和、交与维数",
+        "task": "验证对象是线性子空间",
+        "boundary": "还需 s02 求交、求和并计算维数。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 8,
+          "label": "2023 五"
+        }
+      }
+    ],
+    "s02": [
+      {
+        "topicId": "subspace-sum",
+        "role": "direct",
+        "label": "2023 五 · 子空间的和、交与维数",
+        "task": "求和、交的一组基与维数",
+        "boundary": "按本节流程可做具体生成元题；幂等矩阵的一般证明继续看 s05。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 8,
+          "label": "2023 五"
+        }
+      }
+    ],
+    "s03": [
+      {
+        "topicId": "map-matrix",
+        "role": "prerequisite",
+        "label": "2023 三4 · 多项式求基与指定基下的变换矩阵",
+        "task": "求基与指定基下的坐标",
+        "boundary": "可完成多项式求基部分；变换矩阵还需 m01、m03。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 5,
+          "label": "2023 三4"
+        }
+      }
+    ],
+    "s04": [
+      {
+        "topicId": "gram-qr",
+        "role": "direct",
+        "label": "2023 三1 · Schmidt正交化与QR分解",
+        "task": "Schmidt 正交化及单位化",
+        "boundary": "可练标准正交基部分；将结果组装成 QR 分解继续 d02。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 3,
+          "label": "2023 三1"
+        }
+      }
+    ],
+    "s05": [
+      {
+        "topicId": "idempotent",
+        "role": "direct",
+        "label": "2023 五 · 幂等矩阵的性质与空间证明",
+        "task": "从幂等条件构造直和并证明维数结论",
+        "boundary": "本节解释 N(A)、R(A) 的含义和结构；系统求基方法在 m02。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 8,
+          "label": "2023 五"
+        }
+      }
+    ],
+    "m01": [
+      {
+        "topicId": "map-matrix",
+        "role": "prerequisite",
+        "label": "2023 三4 · 多项式求基与指定基下的变换矩阵",
+        "task": "按定义判断并计算线性映射",
+        "boundary": "完整指定基下矩阵题继续 m03；线性性判断本身可独立练。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 5,
+          "label": "2023 三4"
+        }
+      }
+    ],
+    "m02": [
+      {
+        "topicId": "image-kernel",
+        "role": "direct",
+        "label": "2023 五 · 像、核及其计算应用",
+        "task": "求像、核的一组基和维数",
+        "boundary": "依赖 b01、b02；正交补还需理解内积条件。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 8,
+          "label": "2023 五"
+        }
+      },
+      {
+        "topicId": "orthogonal-complement",
+        "role": "direct",
+        "label": "2023 三2 · 值域的正交补",
+        "task": "从与各列正交写成 Aᴴy=0，并用自由参数给出一组基。",
+        "boundary": "用本节方法可完成整题；注意题面矩阵外面的转置，答案应有5个分量。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 3,
+          "label": "2023 三2"
+        }
+      }
+    ],
+    "m03": [
+      {
+        "topicId": "map-matrix",
+        "role": "direct",
+        "label": "2023 三4 · 多项式求基与指定基下的变换矩阵",
+        "task": "逐列求指定基下的变换矩阵",
+        "boundary": "若生成元未必成基，先用 s03 和 b02 选出一组基。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 5,
+          "label": "2023 三4"
+        }
+      }
+    ],
+    "m04": [
+      {
+        "topicId": "jordan",
+        "role": "prerequisite",
+        "label": "2023 三3 · 初等因子、不变因子、Jordan形与最小多项式",
+        "task": "计算特征值和特征空间维数",
+        "boundary": "本节不能直接给全部不变因子；整题继续 d06。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 4,
+          "label": "2023 三3"
+        }
+      }
+    ],
+    "m05": [
+      {
+        "topicId": "gram-qr",
+        "role": "prerequisite",
+        "label": "2023 三1 · Schmidt正交化与QR分解",
+        "task": "检查正交/酉矩阵的条件",
+        "boundary": "用于检查 QᴴQ=I；完整 QR 仍需 d02 的构造。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 3,
+          "label": "2023 三1"
+        }
+      }
+    ],
+    "d01": [
+      {
+        "topicId": "full-rank",
+        "role": "direct",
+        "label": "2021 二(5) · 矩阵的满秩分解",
+        "task": "从主元列构造满秩分解",
+        "boundary": "可做题面明确要求满秩分解的计算题；广义逆应用继续 e04。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2021年试题.pdf",
+          "page": 5,
+          "label": "2021 二(5)"
+        }
+      }
+    ],
+    "d02": [
+      {
+        "topicId": "gram-qr",
+        "role": "direct",
+        "label": "2023 三1 · Schmidt正交化与QR分解",
+        "task": "计算 Q、R 并核验 QR=A",
+        "boundary": "先会 s04 的正交化；原题高维计算较长，需要独立完整练一次。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 3,
+          "label": "2023 三1"
+        }
+      }
+    ],
+    "d03": [
+      {
+        "topicId": "jordan",
+        "role": "prerequisite",
+        "label": "2023 三3 · 初等因子、不变因子、Jordan形与最小多项式",
+        "task": "用 Cayley–Hamilton 降低矩阵幂次数",
+        "boundary": "用于核验矩阵多项式；求全部因子和Jordan形继续 d06。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 4,
+          "label": "2023 三3"
+        }
+      }
+    ],
+    "d04": [
+      {
+        "topicId": "spectral",
+        "role": "prerequisite",
+        "label": "2020 四 · 谱分解与矩阵函数的谱表示",
+        "task": "判断并完成相似对角化",
+        "boundary": "对角化是谱分解的前提；完整谱投影表达继续 d05。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+          "page": 6,
+          "label": "2020 四"
+        }
+      }
+    ],
+    "d05": [
+      {
+        "topicId": "spectral",
+        "role": "direct",
+        "label": "2020 四 · 谱分解与矩阵函数的谱表示",
+        "task": "求谱投影并写谱分解",
+        "boundary": "若同时问 eᴬ，还要学习 a06 如何作用于谱投影。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2020年试题.pdf",
+          "page": 6,
+          "label": "2020 四"
+        }
+      }
+    ],
+    "d06": [
+      {
+        "topicId": "jordan",
+        "role": "direct",
+        "label": "2023 三3 · 初等因子、不变因子、Jordan形与最小多项式",
+        "task": "串联初等因子、不变因子、Jordan形和最小多项式",
+        "boundary": "本节基础算例与真题精讲覆盖常见小阶题；求相似矩阵还需Jordan链训练。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 4,
+          "label": "2023 三3"
+        }
+      }
+    ],
+    "a01": [
+      {
+        "topicId": "norms",
+        "role": "direct",
+        "label": "2019 四 · 向量范数、矩阵范数、距离与谱半径",
+        "task": "计算向量范数并区分三种长度",
+        "boundary": "只覆盖向量部分；矩阵范数与谱半径继续 a02— a04。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+          "page": 9,
+          "label": "2019 四"
+        }
+      }
+    ],
+    "a02": [
+      {
+        "topicId": "norms",
+        "role": "direct",
+        "label": "2019 四 · 向量范数、矩阵范数、距离与谱半径",
+        "task": "计算矩阵 1、∞、2 与 F 范数",
+        "boundary": "题目涉及相容、诱导性质时还需 a03，谱半径看 a04。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+          "page": 9,
+          "label": "2019 四"
+        }
+      }
+    ],
+    "a03": [
+      {
+        "topicId": "norms",
+        "role": "direct",
+        "label": "2019 四 · 向量范数、矩阵范数、距离与谱半径",
+        "task": "按定义判断相容性与诱导关系",
+        "boundary": "可做概念判定部分；逐项计算仍需 a01、a02。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2019年试题.pdf",
+          "page": 9,
+          "label": "2019 四"
+        }
+      }
+    ],
+    "a04": [
+      {
+        "topicId": "gershgorin",
+        "role": "direct",
+        "label": "2017 三 · 盖尔圆定位、隔离与画图",
+        "task": "画盖尔圆并说明隔离与计数",
+        "boundary": "真实旧卷还可能要相似缩放；题型页提供2017完整算例。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+          "page": 3,
+          "label": "2017 三"
+        }
+      }
+    ],
+    "a05": [
+      {
+        "topicId": "series",
+        "role": "direct",
+        "label": "2023 二(6)(7) · 矩阵级数敛散及几何级数恒等式",
+        "task": "用谱半径判定矩阵几何级数并求和",
+        "boundary": "一般函数题继续 a06；不能把范数小于1误当必要条件。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 2,
+          "label": "2023 二(6)(7)"
+        }
+      }
+    ],
+    "a06": [
+      {
+        "topicId": "matrix-functions",
+        "role": "direct",
+        "label": "2023 四 · 矩阵指数、矩阵函数及应用",
+        "task": "计算矩阵指数及导数",
+        "boundary": "先练2023指数导数；非齐次微分方程应用不由这一节自动覆盖。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 7,
+          "label": "2023 四"
+        }
+      }
+    ],
+    "e02": [
+      {
+        "topicId": "least-squares",
+        "role": "prerequisite",
+        "label": "2023 三5 · 广义逆与极小范数最小二乘解",
+        "task": "通过 SVD 理解奇异值与伪逆",
+        "boundary": "本节提供分解工具；伪逆计算继续 e04，最小二乘继续 e05。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 6,
+          "label": "2023 三5"
+        }
+      }
+    ],
+    "e03": [
+      {
+        "topicId": "least-squares",
+        "role": "prerequisite",
+        "label": "2023 三5 · 广义逆与极小范数最小二乘解",
+        "task": "区分广义逆与 Moore–Penrose 逆",
+        "boundary": "本节是定义基础；求解具体最小二乘题还需 e04、e05。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 6,
+          "label": "2023 三5"
+        }
+      }
+    ],
+    "e04": [
+      {
+        "topicId": "least-squares",
+        "role": "direct",
+        "label": "2023 三5 · 广义逆与极小范数最小二乘解",
+        "task": "计算 A⁺ 并核验 Penrose 条件",
+        "boundary": "只做伪逆计算部分；通解与极小范数解继续 e05。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 6,
+          "label": "2023 三5"
+        }
+      }
+    ],
+    "e05": [
+      {
+        "topicId": "least-squares",
+        "role": "direct",
+        "label": "2023 三5 · 广义逆与极小范数最小二乘解",
+        "task": "求极小范数最小二乘解",
+        "boundary": "此任务在旧卷与学习通出现，当前I大纲未单列；范围单独标记。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2023年试题.pdf",
+          "page": 6,
+          "label": "2023 三5"
+        }
+      }
+    ],
+    "e06": [
+      {
+        "topicId": "matrix-equation",
+        "role": "direct",
+        "label": "2017 八 · 矩阵方程AX+XB=C（旧卷补充）",
+        "task": "将小矩阵方程转成线性方程组",
+        "boundary": "vec方法须按列展开；Sylvester方程与AXB=D使用不同公式。",
+        "ref": {
+          "file": "矩阵理论复习资料/往年题/2017年试题.pdf",
+          "page": 8,
+          "label": "2017 八"
+        }
+      }
+    ]
+  }
+}

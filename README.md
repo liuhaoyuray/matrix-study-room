@@ -2,7 +2,9 @@
 
 面向线性代数基础遗忘的研究生，把矩阵理论课程、PPT例题、往年期末题和学习通章节测验组织为可直接学习的网页。
 
-在线学习：https://matrix-study-room-2026-q7n2.liuhaoyuray.chatgpt.site
+在线学习：https://liuhaoyuray.github.io/matrix-study-room/
+
+2026-11-03 重新编排：先分析真实期末题，再确定每节的目标、定义、完整算例、独立练习和验收标准。
 
 ## 使用
 
@@ -10,8 +12,10 @@
 
 ## 内容
 
-- 30个短课：先修工具、线性空间、线性映射与矩阵、矩阵分解、矩阵分析，以及学习通目录补充。
-- 169道练习，其中105道为学习通五章真实原题。
+- 30节重写课程，每节按“目标与期末题 → 定义与理解 → 例题与步骤 → 独立练习 → 真题与验收”五步阅读。
+- 六份有年份试卷逐题分析、15类期末任务、原卷页码和按卷去重频次，区分大纲主线与旧卷/学习通补充。
+- 7道真实期末题逐步精讲、4个课件例题解读，另有165道练习：60道自编基础题与105道学习通原题。
+- 每节标明“仅提供基础工具”或“本节学完可练”，并列出缺少的后续技能。
 - 54份PDF原始资料与50页学习通题面截图。
 - 逐题练习、多选、独立参考讲解、错题回顾、个人笔记、进度保存、搜索与记录导入导出。
 
@@ -21,6 +25,12 @@
 
 ## 维护
 
-编辑 `content-foundations.json`、`content-advanced.json`、`content-supplement.json` 或 `chaoxing-questions.json` 后，运行 `python build_web.py` 更新网页数据。原始资料映射保存在 `source-index.json`，实际文件位于 `dist/sources/`。
+课程最终稿在 `content-foundations.json`、`content-advanced.json`、`content-supplement.json`。编辑这些文件或 `chaoxing-questions.json` 后，运行 `python build_web.py` 更新网页数据。原始资料映射保存在 `source-index.json`，实际文件位于 `dist/sources/`。
+
+旧卷证据在 `exam-audit.json`，教学路径和对应关系在 `build_exam_map.py`。修改后先运行 `python build_exam_map.py` 生成 `exam-map.json`，再运行 `python build_web.py`。出现卷数不表示本学期命题概率，综合题的交叠考点分值不可相加。
+
+原学习笔记与学习通题的答题记录保留；重编课程的新题使用不同编号，避免把旧题对错误套到新题。新版按新的验收标准重新记录学过进度，旧进度仍留在导出备份中。
+
+网站由 `gh-pages` 分支根目录发布。更新 `main` 的源文件后，还应将 `dist/` 内容同步至 `gh-pages`，两者不会自动同步。
 
 本仓库不含登录凭据、个人浏览器记录及Sites部署身份配置。课件与题面用于个人课程学习，未附加开源授权；KaTeX依其随附LICENSE使用。
